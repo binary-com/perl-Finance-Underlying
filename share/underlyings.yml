@@ -6906,22 +6906,6 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-frxBTCEUR:
-  asset: BTC
-  display_name: BTC/EUR
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: minor_pairs
-  symbol: frxBTCEUR
 frxBTCUSD:
   asset: BTC
   display_name: BTC/USD
@@ -7098,6 +7082,198 @@ frxBTCSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxBTCSEK
+frxBCHEUR:
+  asset: BCH
+  display_name: BCH/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxBCHEUR
+frxBCHUSD:
+  asset: BCH
+  display_name: BCH/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxBCHUSD
+frxBCHAUD:
+  asset: BCH
+  display_name: BCH/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxBCHAUD
+frxBCHJPY:
+  asset: BCH
+  display_name: BCH/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxBCHJPY
+frxBCHCAD:
+  asset: BCH
+  display_name: BCH/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxBCHCAD
+frxBCHCHF:
+  asset: BCH
+  display_name: BCH/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxBCHCHF
+frxBCHGBP:
+  asset: BCH
+  display_name: BCH/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxBCHGBP
+frxBCHNZD:
+  asset: BCH
+  display_name: BCH/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxBCHNZD
+frxBCHPLN:
+  asset: BCH
+  display_name: BCH/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxBCHPLN
+frxBCHNOK:
+  asset: BCH
+  display_name: BCH/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxBCHNOK
+frxBCHMXN:
+  asset: BCH
+  display_name: BCH/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxBCHMXN
+frxBCHSEK:
+  asset: BCH
+  display_name: BCH/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxBCHSEK
 frxLTCEUR:
   asset: LTC
   display_name: LTC/EUR
