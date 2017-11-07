@@ -78,6 +78,9 @@ Look up the underlying for the given symbol, returning a L<Finance::Underlying> 
 
 sub by_symbol {
     my (undef, $symbol) = @_;
+
+    $symbol =~ s/^FRX/frx/i;
+    $symbol =~ s/^RAN/ran/i;
     return $underlyings{$symbol} // die "unknown underlying $symbol";
 }
 
