@@ -24,11 +24,18 @@ Provides metadata on financial assets such as forex pairs.
 
 use Moo;
 use YAML::XS qw(LoadFile);
+use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
 
 my %underlyings;
 
 =head1 CLASS METHODS
+
+=head2 pipsized_value
+
+Return a string pipsized to the correct number of decimal point
+
+->pipsized_value(100);
 
 =head2 all_underlyings
 
@@ -36,8 +43,21 @@ Returns a list of all underlyings, ordered by symbol.
 
 =cut
 
+sub pipsized_value {
+    my ($self, $value, $custom) = @_;
+
+    my $display_decimals =
+        $custom
+        ? log(1 / $custom) / log(10)
+        : log(1 / $self->pip_size) / log(10);
+    if (defined $value and looks_like_number($value)) {
+        $value = sprintf '%.' . $display_decimals . 'f', $value;
+    }
+    return $value;
+}
+
 sub all_underlyings {
-     map { $underlyings{$_} } sort keys %underlyings
+    map { $underlyings{$_} } sort keys %underlyings;
 }
 
 =head2 symbols
@@ -49,7 +69,6 @@ Return sorted list of all symbols.
 sub symbols {
     return sort keys %underlyings;
 }
-
 
 =head2 by_symbol
 
@@ -71,8 +90,8 @@ The asset being quoted, for example C<USD> for the C<frxUSDJPY> underlying.
 =cut
 
 has asset => (
-	is => 'ro',
-required => 1,
+    is       => 'ro',
+    required => 1,
 );
 
 =head2 display_name
@@ -82,7 +101,7 @@ User-friendly English name used for display purposes.
 =cut
 
 has display_name => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 exchange_name
@@ -94,7 +113,7 @@ See C<Finance::Exchange>. for more details.
 =cut
 
 has exchange_name => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 instrument_type
@@ -122,7 +141,7 @@ Categorises the underlying, available values are:
 =cut
 
 has instrument_type => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 market
@@ -150,7 +169,7 @@ This will be one of the following:
 =cut
 
 has market => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 market_convention
@@ -234,7 +253,7 @@ foreign currency put)- ATM)
 =cut
 
 has market_convention => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 pip_size
@@ -244,7 +263,7 @@ How large the spot pip is.
 =cut
 
 has pip_size => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 quoted_currency
@@ -255,7 +274,7 @@ or the currency in which a stock or stock index is quoted.
 =cut
 
 has quoted_currency => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 submarket
@@ -265,7 +284,7 @@ Classification for the underlying, see also L</market>.
 =cut
 
 has submarket => (
-	is => 'ro',
+    is => 'ro',
 );
 
 =head2 symbol
@@ -275,12 +294,12 @@ The symbol of the underlying, for example C<frxUSDJPY> or C<WLDAUD>.
 =cut
 
 has symbol => (
-	is => 'ro',
+    is => 'ro',
 );
 
 {
-	my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
-	%underlyings = map {; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
+    my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
+    %underlyings = map { ; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
 }
 
 1;
