@@ -2601,7 +2601,7 @@ OTC_AEX:
 OTC_AS51:
   asset: OTC_AS51
   display_name: Australian OTC Index
-  exchange_name: ASX
+  exchange_name: ICE_LIFFE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2666,7 +2666,7 @@ OTC_DFMGI:
 OTC_DJI:
   asset: OTC_DJI
   display_name: Wall Street OTC Index
-  exchange_name: NYSE
+  exchange_name: ICE_LIFFE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2692,7 +2692,7 @@ OTC_FCHI:
 OTC_FTSE:
   asset: OTC_FTSE
   display_name: UK OTC Index
-  exchange_name: LSE
+  exchange_name: ICE_LIFFE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2718,7 +2718,7 @@ OTC_FTSEMIB:
 OTC_GDAXI:
   asset: OTC_GDAXI
   display_name: German OTC Index
-  exchange_name: FSE
+  exchange_name: EEI_AM
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2874,7 +2874,7 @@ OTC_N150:
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese OTC Index
-  exchange_name: TSE
+  exchange_name: SYNTSE
   instrument_type: stockindex
   market: indices
   market_convention:
