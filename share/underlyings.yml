@@ -3038,7 +3038,7 @@ OTC_SX5E:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa
+  submarket: otc_index
   symbol: OTC_SX5E
 OTC_SZSECOMP:
   asset: OTC_SZSECOMP
@@ -3064,7 +3064,7 @@ OTC_TOP40:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ZAR
-  submarket: europe_africa
+  submarket: otc_index
   symbol: OTC_TOP40
 PSI20:
   asset: PSI20
