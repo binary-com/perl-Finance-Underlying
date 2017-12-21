@@ -2481,6 +2481,19 @@ N225:
   quoted_currency: JPY
   submarket: asia_oceania
   symbol: N225
+NIFTY:
+  asset: NIFTY
+  display_name: Indian 50 Index
+  exchange_name: NSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: INR
+  submarket: otc_index
+  symbol: NIFTY
 NAASML:
   asset: NAASML
   display_name: ASML Holding
