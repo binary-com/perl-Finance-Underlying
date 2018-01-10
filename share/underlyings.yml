@@ -2481,19 +2481,6 @@ N225:
   quoted_currency: JPY
   submarket: asia_oceania
   symbol: N225
-NIFTY:
-  asset: NIFTY
-  display_name: Indian 50 Index
-  exchange_name: NSE_OTC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: INR
-  submarket: otc_index
-  symbol: NIFTY
 NAASML:
   asset: NAASML
   display_name: ASML Holding
@@ -2601,7 +2588,7 @@ OMXS30:
 OTC_AEX:
   asset: OTC_AEX
   display_name: Dutch OTC Index
-  exchange_name: EURONEXT_OTC
+  exchange_name: EURONEXT
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2614,7 +2601,7 @@ OTC_AEX:
 OTC_AS51:
   asset: OTC_AS51
   display_name: Australian OTC Index
-  exchange_name: ASX_OTC
+  exchange_name: ASX
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2679,7 +2666,7 @@ OTC_DFMGI:
 OTC_DJI:
   asset: OTC_DJI
   display_name: Wall Street OTC Index
-  exchange_name: NYSE_OTC
+  exchange_name: NYSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2692,7 +2679,7 @@ OTC_DJI:
 OTC_FCHI:
   asset: OTC_FCHI
   display_name: French OTC Index
-  exchange_name: EURONEXT_OTC
+  exchange_name: EURONEXT
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2705,7 +2692,7 @@ OTC_FCHI:
 OTC_FTSE:
   asset: OTC_FTSE
   display_name: UK OTC Index
-  exchange_name: LSE_OTC
+  exchange_name: LSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2731,7 +2718,7 @@ OTC_FTSEMIB:
 OTC_GDAXI:
   asset: OTC_GDAXI
   display_name: German OTC Index
-  exchange_name: FSE_OTC
+  exchange_name: FSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2757,7 +2744,7 @@ OTC_HSI:
 OTC_IBEX35:
   asset: OTC_IBEX35
   display_name: Spanish OTC Index
-  exchange_name: BM_OTC
+  exchange_name: BM
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2887,7 +2874,7 @@ OTC_N150:
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese OTC Index
-  exchange_name: TSE_OTC
+  exchange_name: TSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2900,7 +2887,7 @@ OTC_N225:
 OTC_NIFTY:
   asset: OTC_NIFTY
   display_name: Indian 50 OTC Index
-  exchange_name: NSE_OTC
+  exchange_name: NSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -2991,7 +2978,7 @@ OTC_SHSZ300:
 OTC_SPC:
   asset: OTC_SPC
   display_name: US OTC Index
-  exchange_name: NYSE_SPC_OTC
+  exchange_name: NYSE_SPC
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -3017,7 +3004,7 @@ OTC_SPC100:
 OTC_SPTSX60:
   asset: OTC_SPTSX60
   display_name: Canadian OTC Index
-  exchange_name: TRSE_OTC
+  exchange_name: TRSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -3043,7 +3030,7 @@ OTC_SSECOMP:
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 OTC Index
-  exchange_name: STOXX_OTC
+  exchange_name: STOXX
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -3051,7 +3038,7 @@ OTC_SX5E:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_SX5E
 OTC_SZSECOMP:
   asset: OTC_SZSECOMP
@@ -3069,7 +3056,7 @@ OTC_SZSECOMP:
 OTC_TOP40:
   asset: OTC_TOP40
   display_name: South African OTC Index
-  exchange_name: JSE_OTC
+  exchange_name: JSE
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -3077,7 +3064,7 @@ OTC_TOP40:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ZAR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_TOP40
 PSI20:
   asset: PSI20
