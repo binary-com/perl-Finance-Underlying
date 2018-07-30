@@ -1979,7 +1979,7 @@ frxEURSEK:
     rr: call-put
   pip_size: 0.0001
   quoted_currency: SEK
-  submarket: major_pairs
+  submarket: minor_pairs
   symbol: frxEURSEK
 frxEURSGD:
   asset: EUR
