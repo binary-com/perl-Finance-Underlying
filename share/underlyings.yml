@@ -4765,4 +4765,323 @@ frxDAIXPT:
   quoted_currency: XPT
   submarket: minor_pairs
   symbol: frxDAIXPT
-
+frxUSTAED:
+  asset: UST
+  display_name: UST/AED
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: AED
+  submarket: minor_pairs
+  symbol: frxUSTAED
+frxUSTAUD:
+  asset: UST
+  display_name: UST/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxUSTAUD
+frxUSTBRL:
+  asset: UST
+  display_name: UST/BRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: BRL
+  submarket: minor_pairs
+  symbol: frxUSTBRL
+frxUSTCAD:
+  asset: UST
+  display_name: UST/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxUSTCAD
+frxUSTCHF:
+  asset: UST
+  display_name: UST/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxUSTCHF
+frxUSTCNY:
+  asset: UST
+  display_name: UST/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxUSTCNY
+frxUSTCZK:
+  asset: UST
+  display_name: UST/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxUSTCZK
+frxUSTEGP:
+  asset: UST
+  display_name: UST/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxUSTEGP
+frxUSTEUR:
+  asset: UST
+  display_name: UST/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxUSTEUR
+frxUSTGBP:
+  asset: UST
+  display_name: UST/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxUSTGBP
+frxUSTHKD:
+  asset: UST
+  display_name: UST/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxUSTHKD
+frxUSTIDR:
+  asset: UST
+  display_name: UST/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxUSTIDR
+frxUSTINR:
+  asset: UST
+  display_name: UST/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxUSTINR
+frxUSTJPY:
+  asset: UST
+  display_name: UST/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxUSTJPY
+frxUSTKRW:
+  asset: UST
+  display_name: UST/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxUSTKRW
+frxUSTKWD:
+  asset: UST
+  display_name: UST/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxUSTKWD
+frxUSTMXN:
+  asset: UST
+  display_name: UST/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxUSTMXN
+frxUSTNOK:
+  asset: UST
+  display_name: UST/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxUSTNOK
+frxUSTNZD:
+  asset: UST
+  display_name: UST/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxUSTNZD
+frxUSTPLN:
+  asset: UST
+  display_name: UST/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxUSTPLN
+frxUSTRUB:
+  asset: UST
+  display_name: UST/RUB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: RUB
+  submarket: minor_pairs
+  symbol: frxUSTRUB
+frxUSTSAR:
+  asset: UST
+  display_name: UST/SAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: SAR
+  submarket: minor_pairs
+  symbol: frxUSTSAR
+frxUSTSEK:
+  asset: UST
+  display_name: UST/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxUSTSEK
+frxUSTSGD:
+  asset: UST
+  display_name: UST/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxUSTSGD
+frxUSTTRY:
+  asset: UST
+  display_name: UST/TRY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxUSTTRY
+frxUSTUSD:
+  asset: UST
+  display_name: UST/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxUSTUSD
+frxUSTXAG:
+  asset: UST
+  display_name: UST/XAG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XAG
+  submarket: minor_pairs
+  symbol: frxUSTXAG
+frxUSTXAU:
+  asset: UST
+  display_name: UST/XAU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XAU
+  submarket: minor_pairs
+  symbol: frxUSTXAU
+frxUSTZAR:
+  asset: UST
+  display_name: UST/ZAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: ZAR
+  submarket: minor_pairs
+  symbol: frxUSTZAR
+frxUSTBRO:
+  asset: UST
+  display_name: UST/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxUSTBRO
+frxUSTXPD:
+  asset: UST
+  display_name: UST/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxUSTXPD
+frxUSTXPT:
+  asset: UST
+  display_name: UST/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxUSTXPT
