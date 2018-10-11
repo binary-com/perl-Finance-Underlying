@@ -300,6 +300,16 @@ has symbol => (
     is => 'ro',
 );
 
+=head2 financial
+
+Boolean to determine if symbol is financial or non_financial
+
+=cut
+
+has financial => (
+    is => 'ro',
+);
+
 {
     my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
     %underlyings = map { ; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
