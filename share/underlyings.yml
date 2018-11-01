@@ -399,7 +399,7 @@ OTC_AEX:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_AEX
 OTC_AS51:
   asset: OTC_AS51
@@ -516,7 +516,7 @@ OTC_FCHI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FCHI
 OTC_FCHI_INVAST:
   asset: OTC_FCHI_INVAST
@@ -529,7 +529,7 @@ OTC_FCHI_INVAST:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FCHI_INVAST
 OTC_FCHI_CFH:
   asset: OTC_FCHI_CFH
@@ -542,7 +542,7 @@ OTC_FCHI_CFH:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FCHI_CFH
 OTC_FCHI_FXO:
   asset: OTC_FCHI_FXO
@@ -555,7 +555,7 @@ OTC_FCHI_FXO:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FCHI_FXO
 OTC_FTSE:
   asset: OTC_FTSE
@@ -568,7 +568,7 @@ OTC_FTSE:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: GBP
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FTSE
 OTC_FTSE_INVAST:
   asset: OTC_FTSE_INVAST
@@ -581,7 +581,7 @@ OTC_FTSE_INVAST:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: GBP
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FTSE_INVAST
 OTC_FTSE_CFH:
   asset: OTC_FTSE_CFH
@@ -594,7 +594,7 @@ OTC_FTSE_CFH:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: GBP
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FTSE_CFH
 OTC_FTSE_FXO:
   asset: OTC_FTSE_FXO
@@ -607,7 +607,7 @@ OTC_FTSE_FXO:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: GBP
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_FTSE_FXO
 OTC_GDAXI:
   asset: OTC_GDAXI
@@ -620,7 +620,7 @@ OTC_GDAXI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_GDAXI
 OTC_GDAXI_CFH:
   asset: OTC_GDAXI_CFH
@@ -633,7 +633,7 @@ OTC_GDAXI_CFH:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_GDAXI_CFH
 OTC_GDAXI_FXO:
   asset: OTC_GDAXI_FXO
@@ -646,7 +646,7 @@ OTC_GDAXI_FXO:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_GDAXI_FXO
 OTC_GDAXI_GBE:
   asset: OTC_GDAXI_GBE
@@ -659,7 +659,7 @@ OTC_GDAXI_GBE:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_GDAXI_GBE
 OTC_HSI:
   asset: OTC_HSI
@@ -711,7 +711,7 @@ OTC_IBEX35:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_IBEX35
 OTC_IBEX35_CFH:
   asset: OTC_IBEX35_CFH
@@ -841,7 +841,7 @@ OTC_SSMI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: CHF
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_SSMI
 OTC_SSMI_GBE:
   asset: OTC_SSMI_GBE
@@ -854,7 +854,7 @@ OTC_SSMI_GBE:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: CHF
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_SSMI_GBE
 OTC_STI_INVAST:
   asset: OTC_STI_INVAST
@@ -932,7 +932,7 @@ OTC_SX5E:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_SX5E
 OTC_SX5E_INVAST:
   asset: OTC_SX5E_INVAST
@@ -945,7 +945,7 @@ OTC_SX5E_INVAST:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_SX5E_INVAST
 OTC_SX5E_CFH:
   asset: OTC_SX5E_CFH
@@ -958,7 +958,7 @@ OTC_SX5E_CFH:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_SX5E_CFH
 OTC_SX5E_FXO:
   asset: OTC_SX5E_FXO
@@ -971,7 +971,7 @@ OTC_SX5E_FXO:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: OTC_SX5E_FXO
 PSI20:
   asset: PSI20
@@ -984,7 +984,7 @@ PSI20:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: europe_africa_OTC
+  submarket: europe_OTC
   symbol: PSI20
 RDBEAR:
   asset: RDBEAR
