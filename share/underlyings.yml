@@ -5141,11 +5141,11 @@ CRASH:
   pip_size: 0.001
   quoted_currency: ~
   submarket: ~
-  symbol: BOOM
+  symbol: CRASH
   market_type: non_financial
 BOOM:
   asset: BOOM
-  display_name: BOOM Index
+  display_name: Boom Index
   exchange_name: RANDOM
   instrument_type: ~
   market: ~
