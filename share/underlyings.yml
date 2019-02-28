@@ -5132,3 +5132,25 @@ stpEURUSD:
   quoted_currency: USD
   submarket: step_index
   symbol: stpEURUSD
+CRASH:
+  asset: CRASH
+  display_name: Crash Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: ~
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: ~
+  symbol: BOOM
+  market_type: non_financial
+BOOM:
+  asset: BOOM
+  display_name: BOOM Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: ~
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: ~
+  symbol: BOOM
+  market_type: non_financial
