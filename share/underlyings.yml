@@ -5137,10 +5137,10 @@ CRASH1000:
   display_name: Crash 1000 Index
   exchange_name: RANDOM
   instrument_type: ~
-  market: ~
+  market: synthetic_index
   pip_size: 0.001
   quoted_currency: ~
-  submarket: ~
+  submarket: crash_index
   symbol: CRASH1000
   market_type: non_financial
 BOOM1000:
@@ -5148,9 +5148,9 @@ BOOM1000:
   display_name: Boom 1000 Index
   exchange_name: RANDOM
   instrument_type: ~
-  market: ~
+  market: synthetic_index
   pip_size: 0.001
   quoted_currency: ~
-  submarket: ~
+  submarket: crash_index
   symbol: BOOM1000
   market_type: non_financial
