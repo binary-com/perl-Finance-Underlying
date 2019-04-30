@@ -3634,3 +3634,14 @@ BOOM1000:
   submarket: crash_index
   symbol: BOOM1000
   market_type: non_financial
+stpRNG:
+  asset: stpRNG
+  display_name: Random Step
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: step_rng_index
+  symbol: stpRNG
+  market_type: non_financial
