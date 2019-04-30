@@ -3640,8 +3640,8 @@ stpRNG:
   exchange_name: RANDOM
   instrument_type: ~
   market: synthetic_index
-  pip_size: 0.001
+  pip_size: 0.1
   quoted_currency: ~
-  submarket: step_rng_index
+  submarket: steprng_index
   symbol: stpRNG
   market_type: non_financial
