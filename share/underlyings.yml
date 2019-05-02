@@ -1041,6 +1041,20 @@ R_10:
   submarket: random_index
   symbol: R_10
   market_type: non_financial
+R2_10:
+  asset: R2_10
+  display_name: HF Volatility 10 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: volidx
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R2_10
+  market_type: non_financial
 R_100:
   asset: R_100
   display_name: Volatility 100 Index
@@ -1054,6 +1068,20 @@ R_100:
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
+  market_type: non_financial
+R2_100:
+  asset: R2_100
+  display_name: HF Volatility 100 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: volidx
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R2_100
   market_type: non_financial
 R_25:
   asset: R_25
@@ -1082,6 +1110,20 @@ R_50:
   quoted_currency: ~
   submarket: random_index
   symbol: R_50
+  market_type: non_financial
+R2_50:
+  asset: R2_50
+  display_name: HF Volatility 50 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: volidx
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.0001
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R2_50
   market_type: non_financial
 R_75:
   asset: R_75
