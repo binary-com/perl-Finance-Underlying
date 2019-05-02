@@ -1078,7 +1078,7 @@ R2_100:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.01
+  pip_size: 0.001
   quoted_currency: ~
   submarket: random_index
   symbol: R2_100
@@ -1120,7 +1120,7 @@ R2_50:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.0001
+  pip_size: 0.001
   quoted_currency: ~
   submarket: random_index
   symbol: R2_50
