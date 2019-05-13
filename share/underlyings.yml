@@ -3534,7 +3534,7 @@ cryUSBXPT:
   symbol: cryUSBXPT
 stpAUDUSD:
   asset: AUD
-  display_name: AUD/USD Step
+  display_name: AUD/USD Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3544,7 +3544,7 @@ stpAUDUSD:
   symbol: stpAUDUSD
 stpUSDCAD:
   asset: USD
-  display_name: USD/CAD Step
+  display_name: USD/CAD Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3554,7 +3554,7 @@ stpUSDCAD:
   symbol: stpUSDCAD
 stpEURCAD:
   asset: EUR
-  display_name: EUR/CAD Step
+  display_name: EUR/CAD Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3564,7 +3564,7 @@ stpEURCAD:
   symbol: stpEURCAD
 stpAUDJPY:
   asset: AUD
-  display_name: AUD/JPY Step
+  display_name: AUD/JPY Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3574,7 +3574,7 @@ stpAUDJPY:
   symbol: stpAUDJPY
 stpEURGBP:
   asset: EUR
-  display_name: EUR/GBP Step
+  display_name: EUR/GBP Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3584,7 +3584,7 @@ stpEURGBP:
   symbol: stpEURGBP
 stpUSDJPY:
   asset: USD
-  display_name: USD/JPY Step
+  display_name: USD/JPY Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3594,7 +3594,7 @@ stpUSDJPY:
   symbol: stpUSDJPY
 stpEURJPY:
   asset: EUR
-  display_name: EUR/JPY Step
+  display_name: EUR/JPY Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3604,7 +3604,7 @@ stpEURJPY:
   symbol: stpEURJPY
 stpEURUSD:
   asset: EUR
-  display_name: EUR/USD Step
+  display_name: EUR/USD Step Index
   exchange_name: FOREX
   instrument_type: synthetic_index
   market: synthetic_index
@@ -3612,6 +3612,17 @@ stpEURUSD:
   quoted_currency: USD
   submarket: step_index
   symbol: stpEURUSD
+stpRNG:
+  asset: stpRNG
+  display_name: Step Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  pip_size: 0.1
+  quoted_currency: ~
+  submarket: step_index
+  symbol: stpRNG
+  market_type: non_financial
 CRASH1000:
   asset: CRASH1000
   display_name: Crash 1000 Index
@@ -3633,15 +3644,4 @@ BOOM1000:
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM1000
-  market_type: non_financial
-stpRNG:
-  asset: stpRNG
-  display_name: Random Step
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  pip_size: 0.1
-  quoted_currency: ~
-  submarket: steprng_index
-  symbol: stpRNG
   market_type: non_financial
