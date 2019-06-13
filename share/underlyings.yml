@@ -3645,3 +3645,25 @@ BOOM1000:
   submarket: crash_index
   symbol: BOOM1000
   market_type: non_financial
+CRASH500:
+  asset: CRASH500
+  display_name: Crash 500 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: CRASH500
+  market_type: non_financial
+BOOM500:
+  asset: BOOM500
+  display_name: Boom 500 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: BOOM500
+  market_type: non_financial
