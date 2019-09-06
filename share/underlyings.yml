@@ -3532,6 +3532,36 @@ cryUSBXPT:
   quoted_currency: XPT
   submarket: stable_coin
   symbol: cryUSBXPT
+norEURUSD:
+  asset: EUR
+  display_name: Normalized EUR/USD
+  exchange_name: FOREX
+  instrument_type: synthetic_index
+  market: synthetic_index
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: normalized_index
+  symbol: norEURUSD
+norAUDJPY:
+  asset: AUD
+  display_name: Normalized AUD/JPY
+  exchange_name: FOREX
+  instrument_type: synthetic_index
+  market: synthetic_index
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: normalized_index
+  symbol: norAUDJPY
+norUSDJPY:
+  asset: USD
+  display_name: Normalized EUR Index
+  exchange_name: FOREX
+  instrument_type: synthetic_index
+  market: synthetic_index
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: normalized_index
+  symbol: norUSDJPY
 stpAUDUSD:
   asset: AUD
   display_name: AUD/USD Step Index
