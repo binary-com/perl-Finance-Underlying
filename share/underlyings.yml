@@ -2852,16 +2852,6 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-cryBCHUSD:
-  asset: BCH
-  display_name: BCH/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryBCHUSD
 cryBTCUSD:
   asset: BTC
   display_name: BTC/USD
