@@ -165,7 +165,7 @@ This will be one of the following:
 
 =item * indices
 
-=item * synthetic_index
+=item * volidx
 
 =back
 

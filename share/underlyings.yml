@@ -991,7 +991,7 @@ RDBEAR:
   display_name: Bear Market Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1005,7 +1005,7 @@ RDBULL:
   display_name: Bull Market Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1032,7 +1032,7 @@ R_10:
   display_name: Volatility 10 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1046,7 +1046,7 @@ R_100:
   display_name: Volatility 100 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1060,7 +1060,7 @@ R_25:
   display_name: Volatility 25 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1074,7 +1074,7 @@ R_50:
   display_name: Volatility 50 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1088,7 +1088,7 @@ R_75:
   display_name: Volatility 75 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -1266,6 +1266,19 @@ SYNN225:
   quoted_currency: JPY
   submarket: smart_index
   symbol: SYNN225
+SYNPSI20:
+  asset: SYNPSI20
+  display_name: Portuguese Smart Index
+  exchange_name: SYNEURONEXT
+  instrument_type: synthetic
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: synthetic_index
+  symbol: SYNPSI20
 SYNSPC:
   asset: SYNSPC
   display_name: US Smart Index
@@ -1279,6 +1292,19 @@ SYNSPC:
   quoted_currency: USD
   submarket: smart_index
   symbol: SYNSPC
+SYNSSMI:
+  asset: SYNSSMI
+  display_name: Swiss Smart Index
+  exchange_name: SYNSWX
+  instrument_type: synthetic
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: synthetic_index
+  symbol: SYNSSMI
 SYNSX5E:
   asset: SYNSX5E
   display_name: Euro 50 Smart Index
@@ -3013,34 +3039,32 @@ BOOM500:
   market_type: non_financial
 1HZ10V:
   asset: 1HZ10V
-  display_name: Volatility 10 (1s) Index
+  display_name: Fast 10 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: fast_index
   symbol: 1HZ10V
   market_type: non_financial
-  generation_interval: 1s
 1HZ100V:
   asset: 1HZ100V
-  display_name: Volatility 100 (1s) Index
+  display_name: Fast 100 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: synthetic_index
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: fast_index
   symbol: 1HZ100V
   market_type: non_financial
-  generation_interval: 1s
 cryIDKUSD:
   asset: IDK
   display_name: IDK/USD

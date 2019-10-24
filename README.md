@@ -64,7 +64,7 @@ This will be one of the following:
 - forex
 - futures
 - indices
-- synthetic_index
+- volidx
 
 ## market\_convention
 
