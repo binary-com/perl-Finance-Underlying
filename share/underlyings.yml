@@ -3011,8 +3011,8 @@ BOOM500:
   submarket: crash_index
   symbol: BOOM500
   market_type: non_financial
-sprt100:
-  asset: sprt100
+SPRT100:
+  asset: SPRT100
   display_name: Support Resistance 100 Index
   exchange_name: RANDOM
   instrument_type: ~
@@ -3020,10 +3020,10 @@ sprt100:
   pip_size: 0.1
   quoted_currency: ~
   submarket: support_index
-  symbol: sprt100
+  symbol: SPRT100
   market_type: non_financial
-sprt200:
-  asset: sprt200
+SPRT200:
+  asset: SPRT200
   display_name: Support Resistance 200 Index
   exchange_name: RANDOM
   instrument_type: ~
@@ -3031,7 +3031,7 @@ sprt200:
   pip_size: 0.1
   quoted_currency: ~
   submarket: support_index
-  symbol: sprt200
+  symbol: SPRT200
   market_type: non_financial
 1HZ10V:
   asset: 1HZ10V
