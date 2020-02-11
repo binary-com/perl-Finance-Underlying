@@ -3020,7 +3020,7 @@ RB100:
   pip_size: 1
   quoted_currency: ~
   submarket: range_index
-  symbol: SPRT100
+  symbol: RB100
   market_type: non_financial
 RB200:
   asset: RB200
