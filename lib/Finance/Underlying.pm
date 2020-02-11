@@ -101,6 +101,11 @@ has asset => (
     required => 1,
 );
 
+has generation_interval => (
+    is      => 'ro',
+    default => 0,
+);
+
 =head2 display_name
 
 User-friendly English name used for display purposes.
