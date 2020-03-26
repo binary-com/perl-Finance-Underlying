@@ -453,6 +453,19 @@ OTC_AS51_FXO:
   quoted_currency: AUD
   submarket: asia_oceania_OTC
   symbol: OTC_AS51_FXO
+OTC_AS51_TOPFX:
+  asset: OTC_AS51_TOPFX
+  display_name: Australian Index
+  exchange_name: ASX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+  delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: asia_oceania_OTC
+  symbol: OTC_AS51_TOPFX
 OTC_DJI:
   asset: OTC_DJI
   display_name: Wall Street Index
