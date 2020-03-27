@@ -25,6 +25,3 @@ jobs:
       - run:
           name: Run coverage test
           command: dzil cover -test -report codecov
-      - run:
-          name: Run extended author test
-          command: dzil xtest
