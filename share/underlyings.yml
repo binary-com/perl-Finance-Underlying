@@ -518,6 +518,19 @@ OTC_DJI_GBE:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_DJI_GBE
+OTC_DJI_TOPFX:
+  asset: OTC_DJI_TOPFX
+  display_name: Wall Street Index
+  exchange_name: NYSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_DJI_TOPFX
 OTC_FCHI:
   asset: OTC_FCHI
   display_name: French Index
