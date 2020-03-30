@@ -986,6 +986,19 @@ OTC_SPC_GBE:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_SPC_GBE
+OTC_SPC_TOPFX:
+  asset: OTC_SPC_TOPFX
+  display_name: US Index
+  exchange_name: NYSE_SPC_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_SPC_TOPFX
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 Index
