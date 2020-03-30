@@ -830,6 +830,19 @@ OTC_NDX_GBE:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_NDX_GBE
+OTC_NDX_TOPFX:
+  asset: OTC_NDX_TOPFX
+  display_name: US Tech 100 Index
+  exchange_name: NASDAQ_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_NDX_TOPFX
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese Index
