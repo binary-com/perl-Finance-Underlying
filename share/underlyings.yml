@@ -742,7 +742,7 @@ OTC_HSI_CFH:
 OTC_HSI_TOPFX:
   asset: OTC_HSI_TOPFX
   display_name: Hong Kong Index
-  exchange_name: HKSE
+  exchange_name: HKSE_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
