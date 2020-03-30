@@ -570,6 +570,19 @@ OTC_FCHI_FXO:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_FCHI_FXO
+OTC_FCHI_TOPFX:
+  asset: OTC_FCHI_TOPFX
+  display_name: French Index
+  exchange_name: EURONEXT_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: europe_OTC
+  symbol: OTC_FCHI_TOPFX
 OTC_FTSE:
   asset: OTC_FTSE
   display_name: UK Index
