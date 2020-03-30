@@ -713,6 +713,19 @@ OTC_HSI_CFH:
   quoted_currency: HKD
   submarket: asia_oceania_OTC
   symbol: OTC_HSI_CFH
+OTC_HSI_TOPFX:
+  asset: OTC_HSI_TOPFX
+  display_name: Hong Kong Index
+  exchange_name: HKSE
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: asia_oceania_OTC
+  symbol: OTC_HSI_TOPFX
 OTC_IBEX35:
   asset: OTC_IBEX35
   display_name: Spanish Index
