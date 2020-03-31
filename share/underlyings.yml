@@ -895,6 +895,19 @@ OTC_N225_GBE:
   quoted_currency: JPY
   submarket: asia_oceania_OTC
   symbol: OTC_N225_GBE
+OTC_N225_TOPFX:
+  asset: OTC_N225_TOPFX
+  display_name: Japanese Index
+  exchange_name: TSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: asia_oceania_OTC
+  symbol: OTC_N225_TOPFX
 OTC_SSMI:
   asset: OTC_SSMI
   display_name: Swiss Index
