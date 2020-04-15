@@ -4,7 +4,7 @@ jobs:
     docker:
     - image: debian:buster
     environment:
-    - CIRCLE_COMPARE_URL: https://github.com/binary-com/perl-Finance-Underlying/compare/a78fb06196e9185ca6d5943011c0f3999ccee648...ad1f5b4de795e59d42c7c9fadf5f32fd7d7a1e71
+     - CIRCLE_COMPARE_URL: https://github.com/binary-com/perl-Finance-Underlying/compare/master...keanfei-binary:keanfei/refactor_ozlistener
     - TAR_OPTIONS: --no-same-owner
     steps:
     - checkout
