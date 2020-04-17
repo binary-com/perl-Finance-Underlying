@@ -2866,16 +2866,106 @@ cryLTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryLTCUSD
-cryUSTUSD:
-  asset: UST
-  display_name: UST/USD
+cryBUSDUSD:
+  asset: BUSD
+  display_name: BUSD/USD
   exchange_name: CRYPTOCURRENCY
   instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.01
   quoted_currency: USD
   submarket: stable_coin
-  symbol: cryUSTUSD
+  symbol: cryBUSDUSD
+cryDAIUSD:
+  asset: DAI
+  display_name: DAI/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryDAIUSD
+cryEURSEUR:
+  asset: EURS
+  display_name: EURS/EUR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: stable_coin
+  symbol: cryEURSUSD
+cryIDKUSD:
+  asset: IDK
+  display_name: IDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryIDKUSD
+cryPAXUSD:
+  asset: PAX
+  display_name: PAX/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryPAXUSD
+crySAIUSD:
+  asset: SAI
+  display_name: SAI/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: crySAIUSD
+cryTUSDUSD:
+  asset: TUSD
+  display_name: TUSD/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryTUSDUSD
+cryUSDCUSD:
+  asset: USDC
+  display_name: USDC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryUSDCUSD
+cryUSDKUSD:
+  asset: USDK
+  display_name: USDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryUSDKUSD
+cryUSDTUSD:
+  asset: USDT
+  display_name: USDT/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryUSDTUSD
 stpAUDUSD:
   asset: AUD
   display_name: AUD/USD Step Index
@@ -3063,13 +3153,3 @@ RB200:
   symbol: 1HZ100V
   market_type: non_financial
   generation_interval: 1s
-cryIDKUSD:
-  asset: IDK
-  display_name: IDK/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryIDKUSD
