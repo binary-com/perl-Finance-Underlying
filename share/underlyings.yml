@@ -2966,6 +2966,16 @@ cryUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSDTUSD
+cryeUSDTUSD:
+  asset: eUSDT
+  display_name: eUSDT/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryeUSDTUSD
 stpAUDUSD:
   asset: AUD
   display_name: AUD/USD Step Index
