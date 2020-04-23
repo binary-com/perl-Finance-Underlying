@@ -3073,3 +3073,13 @@ cryIDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryIDKUSD
+cryPAXUSD:
+  asset: PAX
+  display_name: PAX/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryPAXUSD
