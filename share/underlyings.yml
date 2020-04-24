@@ -3079,7 +3079,7 @@ cryPAXUSD:
   exchange_name: CRYPTOCURRENCY
   instrument_type: cryptocurrency
   market: cryptocurrency
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryPAXUSD
