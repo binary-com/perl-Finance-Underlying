@@ -1,6 +1,7 @@
 Revision history for Finance-Underlying
 
 {{$NEXT}}
+    new util module
 
 0.004     2018-09-12 03:24:05+00:00 UTC
     Add USB underlyings
