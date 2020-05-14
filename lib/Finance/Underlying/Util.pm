@@ -6,7 +6,24 @@ use warnings;
 use base qw( Exporter );
 our @EXPORT_OK = qw( inverse_frx_symbol );
 
-# VERSION
+=head1 NAME
+
+Finance::Underlying::Util
+
+=cut
+
+## VERSION
+
+=head1 SYNOPSIS
+
+use Finance::Underlying::Util qw(inverse_frx_symbol);
+...
+
+=head1 EXPORT
+
+    inverse_frx_symbol
+
+=head1 SUBROUTINES/METHODS
 
 =head2 inverse_frx_symbol
 
