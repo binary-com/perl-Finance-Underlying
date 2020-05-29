@@ -453,6 +453,19 @@ OTC_AS51_FXO:
   quoted_currency: AUD
   submarket: asia_oceania_OTC
   symbol: OTC_AS51_FXO
+OTC_AS51_TOPFX:
+  asset: OTC_AS51_TOPFX
+  display_name: Australian Index
+  exchange_name: ASX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: asia_oceania_OTC
+  symbol: OTC_AS51_TOPFX
 OTC_DJI:
   asset: OTC_DJI
   display_name: Wall Street Index
@@ -505,6 +518,19 @@ OTC_DJI_GBE:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_DJI_GBE
+OTC_DJI_TOPFX:
+  asset: OTC_DJI_TOPFX
+  display_name: Wall Street Index
+  exchange_name: NYSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_DJI_TOPFX
 OTC_FCHI:
   asset: OTC_FCHI
   display_name: French Index
@@ -557,6 +583,19 @@ OTC_FCHI_FXO:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_FCHI_FXO
+OTC_FCHI_TOPFX:
+  asset: OTC_FCHI_TOPFX
+  display_name: French Index
+  exchange_name: EURONEXT_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: europe_OTC
+  symbol: OTC_FCHI_TOPFX
 OTC_FTSE:
   asset: OTC_FTSE
   display_name: UK Index
@@ -700,6 +739,19 @@ OTC_HSI_CFH:
   quoted_currency: HKD
   submarket: asia_oceania_OTC
   symbol: OTC_HSI_CFH
+OTC_HSI_TOPFX:
+  asset: OTC_HSI_TOPFX
+  display_name: Hong Kong Index
+  exchange_name: HKSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: asia_oceania_OTC
+  symbol: OTC_HSI_TOPFX
 OTC_IBEX35:
   asset: OTC_IBEX35
   display_name: Spanish Index
@@ -778,6 +830,19 @@ OTC_NDX_GBE:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_NDX_GBE
+OTC_NDX_TOPFX:
+  asset: OTC_NDX_TOPFX
+  display_name: US Tech 100 Index
+  exchange_name: NASDAQ_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_NDX_TOPFX
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese Index
@@ -830,6 +895,19 @@ OTC_N225_GBE:
   quoted_currency: JPY
   submarket: asia_oceania_OTC
   symbol: OTC_N225_GBE
+OTC_N225_TOPFX:
+  asset: OTC_N225_TOPFX
+  display_name: Japanese Index
+  exchange_name: TSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: asia_oceania_OTC
+  symbol: OTC_N225_TOPFX
 OTC_SSMI:
   asset: OTC_SSMI
   display_name: Swiss Index
@@ -921,6 +999,19 @@ OTC_SPC_GBE:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_SPC_GBE
+OTC_SPC_TOPFX:
+  asset: OTC_SPC_TOPFX
+  display_name: US Index
+  exchange_name: NYSE_SPC_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_SPC_TOPFX
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 Index
