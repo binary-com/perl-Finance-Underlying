@@ -2647,6 +2647,51 @@ RB200:
   symbol: 1HZ100V
   market_type: non_financial
   generation_interval: 1s
+1HZ25V:
+  asset: 1HZ25V
+  display_name: Volatility 25 (1s) Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ25V
+  market_type: non_financial
+  generation_interval: 1s
+1HZ50V:
+  asset: 1HZ50V
+  display_name: Volatility 50 (1s) Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ50V
+  market_type: non_financial
+  generation_interval: 1s
+1HZ75V:
+  asset: 1HZ75V
+  display_name: Volatility 75 (1s) Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ75V
+  market_type: non_financial
+  generation_interval: 1s
 cryIDKUSD:
   asset: IDK
   display_name: IDK/USD
@@ -2657,3 +2702,13 @@ cryIDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryIDKUSD
+cryPAXUSD:
+  asset: PAX
+  display_name: PAX/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryPAXUSD
