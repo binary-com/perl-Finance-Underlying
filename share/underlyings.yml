@@ -2500,16 +2500,6 @@ cryPAXUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryPAXUSD
-crySAIUSD:
-  asset: SAI
-  display_name: SAI/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: crySAIUSD
 cryTUSDUSD:
   asset: TUSD
   display_name: TUSD/USD
