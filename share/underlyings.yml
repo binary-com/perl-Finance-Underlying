@@ -2530,16 +2530,16 @@ cryUSDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSDKUSD
-cryUSDTUSD:
-  asset: USDT
-  display_name: USDT/USD
+cryUSTUSD:
+  asset: UST
+  display_name: UST/USD
   exchange_name: CRYPTOCURRENCY
   instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.01
   quoted_currency: USD
   submarket: stable_coin
-  symbol: cryUSDTUSD
+  symbol: cryUSTUSD
 cryeUSDTUSD:
   asset: eUSDT
   display_name: eUSDT/USD
