@@ -2479,7 +2479,7 @@ cryEURSEUR:
   pip_size: 0.01
   quoted_currency: EUR
   submarket: stable_coin
-  symbol: cryEURSUSD
+  symbol: cryEURSEUR
 cryIDKUSD:
   asset: IDK
   display_name: IDK/USD
