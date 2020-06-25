@@ -2450,16 +2450,6 @@ cryLTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryLTCUSD
-cryBUSDUSD:
-  asset: BUSD
-  display_name: BUSD/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryBUSDUSD
 cryDAIUSD:
   asset: DAI
   display_name: DAI/USD
@@ -2470,16 +2460,6 @@ cryDAIUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryDAIUSD
-cryEURSEUR:
-  asset: EURS
-  display_name: EURS/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: stable_coin
-  symbol: cryEURSEUR
 cryIDKUSD:
   asset: IDK
   display_name: IDK/USD
