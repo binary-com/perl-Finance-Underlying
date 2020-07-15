@@ -2,6 +2,7 @@ package Finance::Underlying;
 # ABSTRACT: Represents an underlying financial asset
 use strict;
 use warnings;
+use Math::BigFloat;
 
 our $VERSION = '0.004';
 
@@ -47,6 +48,12 @@ Returns a list of all underlyings, ordered by symbol.
 
 =cut
 
+sub display_decimals {
+    my ($self, $value) = @_;
+    my $big_float_val = Math::BigFloat->new($value);
+    return abs($big_float_val->exponent() );
+}
+
 sub pipsized_value {
     my ($self, $value, $custom) = @_;
 
@@ -62,6 +69,12 @@ sub pipsized_value {
 
 sub all_underlyings {
     map { $underlyings{$_} } sort keys %underlyings;
+}
+
+sub pip_size_decimals {
+    my ($self) = @_;
+    return log(1 / $self->pip_size) / log(10);
+
 }
 
 =head2 symbols
