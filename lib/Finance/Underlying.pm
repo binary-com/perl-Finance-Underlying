@@ -50,8 +50,7 @@ Returns a list of all underlyings, ordered by symbol.
 
 =head2 pip_order_precision
 
-Returns the order of precision for pip size of the underlying. 
-e.g. 0.001 returns 3
+Returns the order of precision for pip size of the underlying , e.g. 0.001 returns 3
 
 =cut
 
