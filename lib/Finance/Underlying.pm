@@ -2,9 +2,8 @@ package Finance::Underlying;
 # ABSTRACT: Represents an underlying financial asset
 use strict;
 use warnings;
-use Math::BigFloat;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 =head1 NAME
 
