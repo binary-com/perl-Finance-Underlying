@@ -3,7 +3,7 @@ package Finance::Underlying;
 use strict;
 use warnings;
 
-our $VERSION = '0.005';
+our $VERSION = '0.004';
 
 =head1 NAME
 
@@ -53,7 +53,7 @@ sub pipsized_value {
     my $display_decimals =
         $custom
         ? log(1 / $custom) / log(10)
-        : $self->pip_order_precision;
+        : log(1 / $self->pip_size) / log(10);
     if (defined $value and looks_like_number($value)) {
         $value = sprintf '%.' . $display_decimals . 'f', $value;
     }
