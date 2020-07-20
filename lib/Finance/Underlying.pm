@@ -45,6 +45,10 @@ Return a string pipsized to the correct number of decimal point
 
 Returns a list of all underlyings, ordered by symbol.
 
+=head2 pip_order_precision
+
+Returns the order of precision for pip size of the underlying , e.g. 0.001 returns 3
+
 =cut
 
 sub pipsized_value {
@@ -53,7 +57,7 @@ sub pipsized_value {
     my $display_decimals =
         $custom
         ? log(1 / $custom) / log(10)
-        : log(1 / $self->pip_size) / log(10);
+        : $self->pip_order_precision;
     if (defined $value and looks_like_number($value)) {
         $value = sprintf '%.' . $display_decimals . 'f', $value;
     }
@@ -62,6 +66,11 @@ sub pipsized_value {
 
 sub all_underlyings {
     map { $underlyings{$_} } sort keys %underlyings;
+}
+
+sub pip_order_precision {
+    my $self = shift;
+    return log(1 / $self->pip_size) / log(10);
 }
 
 =head2 symbols
