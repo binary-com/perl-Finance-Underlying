@@ -47,12 +47,6 @@ Returns a list of all underlyings, ordered by symbol.
 
 =cut
 
-=head2 pip_order_precision
-
-Returns the order of precision for pip size of the underlying , e.g. 0.001 returns 3
-
-=cut
-
 sub pipsized_value {
     my ($self, $value, $custom) = @_;
 
@@ -69,12 +63,6 @@ sub pipsized_value {
 sub all_underlyings {
     map { $underlyings{$_} } sort keys %underlyings;
 }
-
-sub pip_order_precision {
-    my $self = shift;
-    return log(1 / $self->pip_size) / log(10);
-}
-
 
 =head2 symbols
 
