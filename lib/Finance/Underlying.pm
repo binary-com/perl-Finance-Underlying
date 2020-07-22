@@ -3,7 +3,7 @@ package Finance::Underlying;
 use strict;
 use warnings;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 =head1 NAME
 
@@ -30,6 +30,7 @@ use Moo;
 use YAML::XS qw(LoadFile);
 use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
+use POSIX;
 
 my %underlyings;
 
@@ -54,10 +55,7 @@ Returns the order of precision for pip size of the underlying , e.g. 0.001 retur
 sub pipsized_value {
     my ($self, $value, $custom) = @_;
 
-    my $display_decimals =
-        $custom
-        ? log(1 / $custom) / log(10)
-        : $self->pip_order_precision;
+    my $display_decimals = $self->pip_order_precision($custom);
     if (defined $value and looks_like_number($value)) {
         $value = sprintf '%.' . $display_decimals . 'f', $value;
     }
@@ -69,8 +67,9 @@ sub all_underlyings {
 }
 
 sub pip_order_precision {
-    my $self = shift;
-    return log(1 / $self->pip_size) / log(10);
+    my ($self , $custom ) = @_;
+    my $the_pip_size = $custom ? $custom : $self->pip_size;
+    return POSIX::log10(1/$the_pip_size) ;
 }
 
 =head2 symbols
