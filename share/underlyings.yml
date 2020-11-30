@@ -2558,7 +2558,7 @@ stpAUDUSD:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: USD
-  submarket: step_index
+  submarket: step_fx
   symbol: stpAUDUSD
 stpUSDCAD:
   asset: USD
@@ -2568,7 +2568,7 @@ stpUSDCAD:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: CAD
-  submarket: step_index
+  submarket: step_fx
   symbol: stpUSDCAD
 stpEURCAD:
   asset: EUR
@@ -2578,7 +2578,7 @@ stpEURCAD:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: CAD
-  submarket: step_index
+  submarket: step_fx
   symbol: stpEURCAD
 stpAUDJPY:
   asset: AUD
@@ -2588,7 +2588,7 @@ stpAUDJPY:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: JPY
-  submarket: step_index
+  submarket: step_fx
   symbol: stpAUDJPY
 stpEURGBP:
   asset: EUR
@@ -2598,7 +2598,7 @@ stpEURGBP:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: GBP
-  submarket: step_index
+  submarket: step_fx
   symbol: stpEURGBP
 stpUSDJPY:
   asset: USD
@@ -2608,7 +2608,7 @@ stpUSDJPY:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: JPY
-  submarket: step_index
+  submarket: step_fx
   symbol: stpUSDJPY
 stpEURJPY:
   asset: EUR
@@ -2618,7 +2618,7 @@ stpEURJPY:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: JPY
-  submarket: step_index
+  submarket: step_fx
   symbol: stpEURJPY
 stpEURUSD:
   asset: EUR
@@ -2628,7 +2628,7 @@ stpEURUSD:
   market: synthetic_index
   pip_size: 0.001
   quoted_currency: USD
-  submarket: step_index
+  submarket: step_fx
   symbol: stpEURUSD
 stpRNG:
   asset: stpRNG
