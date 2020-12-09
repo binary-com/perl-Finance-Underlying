@@ -31,6 +31,7 @@ use YAML::XS qw(LoadFile);
 use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
 use POSIX;
+use Format::Util::Numbers qw(roundtoprecision);
 
 my %underlyings;
 
@@ -57,7 +58,7 @@ sub pipsized_value {
 
     my $display_decimals = $self->display_decimals($custom);
     if (defined $value and looks_like_number($value)) {
-        $value = sprintf '%.' . $display_decimals . 'f', $value;
+        $value = roundtoprecision($display_decimals, $value);
     }
     return $value;
 }
