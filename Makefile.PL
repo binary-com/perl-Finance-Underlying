@@ -56,7 +56,8 @@ my %FallbackPrereqs = (
   "Test::CheckDeps" => "0.010",
   "Test::More" => "0.94",
   "YAML::XS" => 0,
-  "namespace::autoclean" => 0
+  "namespace::autoclean" => 0,
+  "Format::Util::Numbers" => 0,
 );
 
 
