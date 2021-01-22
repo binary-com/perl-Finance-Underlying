@@ -2795,3 +2795,627 @@ RB200:
   symbol: 1HZ75V
   market_type: non_financial
   generation_interval: 1s
+USAAIR:
+  asset: USAAIR
+  display_name: American Airlines Group Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAAIR
+USAAPL:
+  asset: USAAPL
+  display_name: Apple
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAAPL
+USALIBA:
+  asset: USALIBA
+  display_name: Alibaba
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USALIBA
+USAMX:
+  asset: USAMX
+  display_name: American Express
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAMX
+USAMZN:
+  asset: USAMZN
+  display_name: Amazon.com
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAMZN
+USBNG:
+  asset: USBNG
+  display_name: Boeing
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USBNG
+USBAC:
+  asset: USBAC
+  display_name: Bank of America Corporation
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USBAC
+USCSCO:
+  asset: USCSCO
+  display_name: Cisco Systems Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCSCO
+USCT:
+  asset: USCT
+  display_name: Citigroup
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCT
+USCVX:
+  asset: USCVX
+  display_name: Chevron Co.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCVX
+USDLT:
+  asset: USDLT
+  display_name: Delta Air Lines Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USDLT
+USEBY:
+  asset: USEBY
+  display_name: eBay Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USEBY
+USFB:
+  asset: USFB
+  display_name: Facebook
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USFB
+USGLDSCH:
+  asset: USGLDSCH
+  display_name: Goldman Sachs
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USGLDSCH
+USGM:
+  asset: USGM
+  display_name: General Motors Company
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USGM
+USGOOG:
+  asset: USGOOG
+  display_name: Alphabet
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USGOOG
+USHPQ:
+  asset: USHPQ
+  display_name: HP Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USHPQ
+USIBM:
+  asset: USIBM
+  display_name: IBM
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USIBM
+USINTC:
+  asset: USINTC
+  display_name: Intel
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USINTC
+USJNJ:
+  asset: USJNJ
+  display_name: Johnson & Johnson
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USJNJ
+USJPM:
+  asset: USJPM
+  display_name: JP Morgan Chase & Co.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USJPM
+USKO:
+  asset: USKO
+  display_name: Coca-Cola Co
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USKO
+USMA:
+  asset: USMA
+  display_name: MasterCard
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMA
+USMCD:
+  asset: USMCD
+  display_name: McDonald's
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMCD
+USMMM:
+  asset: USMMM
+  display_name: 3M Company
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMMM
+USMSFT:
+  asset: USMSFT
+  display_name: Microsoft
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMSFT
+USNKE:
+  asset: USNKE
+  display_name: Nike Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNKE
+USNTFLX:
+  asset: USNTFLX
+  display_name: Netflix Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNTFLX
+USPFE:
+  asset: USPFE
+  display_name: Pfizer Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPFE
+USPG:
+  asset: USPG
+  display_name: Procter & Gamble
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPG
+USTEVA:
+  asset: USTEVA
+  display_name: Teva Pharmaceutical Industries Limited
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USTEVA
+USTSLMTR:
+  asset: USTSLMTR
+  display_name: Tesla Motors Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USTSLMTR
+USTWTR:
+  asset: USTWTR
+  display_name: Twitter Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USTWTR
+USVISA:
+  asset: USVISA
+  display_name: VISA Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USVISA
+USWMT:
+  asset: USWMT
+  display_name: Wal-Mart Stores Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USWMT
+USNVDA:
+  asset: USNVDA
+  display_name: Nvidia
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNVDA
+USCRM:
+  asset: USCRM
+  display_name: Salesforce
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCRM
+USZM:
+  asset: USZM
+  display_name: Zoom Video Communications
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USZM
+USPYPL:
+  asset: USPYPL
+  display_name: PayPal
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPYPL
+USDELL:
+  asset: USDELL
+  display_name: Dell Technologies Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USDELL
+USDIS:
+  asset: USDIS
+  display_name: The Walt Disney Company
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USDIS
+USUBER:
+  asset: USUBER
+  display_name: Uber Technologies Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USUBER
+USFDX:
+  asset: USFDX
+  display_name: FedEx
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USFDX
+USAIG:
+  asset: USAIG
+  display_name: American International Group Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAIG
+DEBMW:
+  asset: DEBMW
+  display_name: BMW
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEBMW
+DEADS:
+  asset: DEADS
+  display_name: Adidas
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEADS
+DEBAYER:
+  asset: DEBAYER
+  display_name: Bayer AG
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEBAYER
+DEDBK:
+  asset: DEDBK
+  display_name: Deutsche Bank
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEDBK
