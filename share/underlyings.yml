@@ -3419,3 +3419,78 @@ DEDBK:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEDBK
+JD10:
+  asset: JD10
+  display_name: Jump-Diffusion 10
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: JD10
+  market_type: non_financial
+  generation_interval: 1s
+JD25:
+  asset: JD25
+  display_name: Jump-Diffusion 25
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: JD25
+  market_type: non_financial
+  generation_interval: 1s
+JD50:
+  asset: JD50
+  display_name: Jump-Diffusion 50
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: JD50
+  market_type: non_financial
+  generation_interval: 1s
+JD75:
+  asset: JD75
+  display_name: Jump-Diffusion 75
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: JD75
+  market_type: non_financial
+  generation_interval: 1s
+JD100:
+  asset: JD100
+  display_name: Jump-Diffusion 100
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: JD100
+  market_type: non_financial
+  generation_interval: 1s
