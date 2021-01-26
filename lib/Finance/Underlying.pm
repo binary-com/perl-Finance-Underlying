@@ -55,7 +55,7 @@ Returns the number of digits of the underlying pip size or a custom pip size
 
 sub pipsized_value {
     my ($self, $value, $custom) = @_;
-    
+
     my $pip_size = $custom || $self->pip_size;
 
     if (defined $value and looks_like_number($value)) {
