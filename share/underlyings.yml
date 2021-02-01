@@ -2797,7 +2797,7 @@ RB200:
   generation_interval: 1s
 JD10:
   asset: JD10
-  display_name: Jump-Diffusion 10
+  display_name: Volatility 10 Jump diffusion
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -2806,13 +2806,13 @@ JD10:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: jump_index
   symbol: JD10
   market_type: non_financial
   generation_interval: 1s
 JD25:
   asset: JD25
-  display_name: Jump-Diffusion 25
+  display_name: Volatility 25 Jump diffusion
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -2821,13 +2821,13 @@ JD25:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: jump_index
   symbol: JD25
   market_type: non_financial
   generation_interval: 1s
 JD50:
   asset: JD50
-  display_name: Jump-Diffusion 50
+  display_name: Volatility 50 Jump diffusion
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -2836,13 +2836,13 @@ JD50:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: jump_index
   symbol: JD50
   market_type: non_financial
   generation_interval: 1s
 JD75:
   asset: JD75
-  display_name: Jump-Diffusion 75
+  display_name: Volatility 75 Jump diffusion
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -2851,13 +2851,13 @@ JD75:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: jump_index
   symbol: JD75
   market_type: non_financial
   generation_interval: 1s
 JD100:
   asset: JD100
-  display_name: Jump-Diffusion 100
+  display_name: Volatility 100 Jump diffusion
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -2866,7 +2866,7 @@ JD100:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: random_index
+  submarket: jump_index
   symbol: JD100
   market_type: non_financial
   generation_interval: 1s
