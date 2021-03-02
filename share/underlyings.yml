@@ -390,7 +390,7 @@ OMXS30:
   symbol: OMXS30
 OTC_AEX:
   asset: OTC_AEX
-  display_name: Dutch Index
+  display_name: Netherland 25
   exchange_name: EURONEXT_OTC
   instrument_type: stockindex
   market: indices
@@ -403,7 +403,7 @@ OTC_AEX:
   symbol: OTC_AEX
 OTC_AS51:
   asset: OTC_AS51
-  display_name: Australian Index
+  display_name: Australia 200
   exchange_name: ASX_OTC
   instrument_type: stockindex
   market: indices
@@ -416,7 +416,7 @@ OTC_AS51:
   symbol: OTC_AS51
 OTC_DJI:
   asset: OTC_DJI
-  display_name: Wall Street Index
+  display_name: Wall Street 30
   exchange_name: NYSE_OTC
   instrument_type: stockindex
   market: indices
@@ -429,7 +429,7 @@ OTC_DJI:
   symbol: OTC_DJI
 OTC_FCHI:
   asset: OTC_FCHI
-  display_name: French Index
+  display_name: France 40
   exchange_name: EURONEXT_OTC
   instrument_type: stockindex
   market: indices
@@ -442,7 +442,7 @@ OTC_FCHI:
   symbol: OTC_FCHI
 OTC_FTSE:
   asset: OTC_FTSE
-  display_name: UK Index
+  display_name: UK 100
   exchange_name: LSE_OTC
   instrument_type: stockindex
   market: indices
@@ -455,7 +455,7 @@ OTC_FTSE:
   symbol: OTC_FTSE
 OTC_GDAXI:
   asset: OTC_GDAXI
-  display_name: German Index
+  display_name: Germany 30
   exchange_name: FSE_OTC
   instrument_type: stockindex
   market: indices
@@ -468,7 +468,7 @@ OTC_GDAXI:
   symbol: OTC_GDAXI
 OTC_HSI:
   asset: OTC_HSI
-  display_name: Hong Kong Index
+  display_name: Hong Kong 50
   exchange_name: HKSE_OTC
   instrument_type: stockindex
   market: indices
@@ -481,7 +481,7 @@ OTC_HSI:
   symbol: OTC_HSI
 OTC_IBEX35:
   asset: OTC_IBEX35
-  display_name: Spanish Index
+  display_name: Spain 35
   exchange_name: BM_OTC
   instrument_type: stockindex
   market: indices
@@ -494,7 +494,7 @@ OTC_IBEX35:
   symbol: OTC_IBEX35
 OTC_NDX:
   asset: OTC_NDX
-  display_name: US Tech Index
+  display_name: US Tech 100
   exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
@@ -507,7 +507,7 @@ OTC_NDX:
   symbol: OTC_NDX
 OTC_N225:
   asset: OTC_N225
-  display_name: Japanese Index
+  display_name: Japan 225
   exchange_name: TSE_OTC
   instrument_type: stockindex
   market: indices
@@ -520,7 +520,7 @@ OTC_N225:
   symbol: OTC_N225
 OTC_SSMI:
   asset: OTC_SSMI
-  display_name: Swiss Index
+  display_name: Swiss 20
   exchange_name: SWX_OTC
   instrument_type: stockindex
   market: indices
@@ -533,7 +533,7 @@ OTC_SSMI:
   symbol: OTC_SSMI
 OTC_SPC:
   asset: OTC_SPC
-  display_name: US Index
+  display_name: US 500
   exchange_name: NYSE_SPC_OTC
   instrument_type: stockindex
   market: indices
@@ -546,7 +546,7 @@ OTC_SPC:
   symbol: OTC_SPC
 OTC_SX5E:
   asset: OTC_SX5E
-  display_name: Euro 50 Index
+  display_name: Europe 50
   exchange_name: STOXX_OTC
   instrument_type: stockindex
   market: indices
