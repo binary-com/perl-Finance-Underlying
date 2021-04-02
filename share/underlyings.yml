@@ -11,6 +11,81 @@
 # Steps to obtain Bloomberg vol convention for the market_convention section:
 # - Go to OVDV then Settings->Data Settings->Conventions
 ---
+1HZ100V:
+  asset: 1HZ100V
+  display_name: Volatility 100 (1s) Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ100V
+1HZ10V:
+  asset: 1HZ10V
+  display_name: Volatility 10 (1s) Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ10V
+1HZ25V:
+  asset: 1HZ25V
+  display_name: Volatility 25 (1s) Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ25V
+1HZ50V:
+  asset: 1HZ50V
+  display_name: Volatility 50 (1s) Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ50V
+1HZ75V:
+  asset: 1HZ75V
+  display_name: Volatility 75 (1s) Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ75V
 ADSMI:
   asset: ADSMI
   display_name: Abu Dhabi Index
@@ -89,6 +164,28 @@ BIST100:
   quoted_currency: TRY
   submarket: europe_africa
   symbol: BIST100
+BOOM1000:
+  asset: BOOM1000
+  display_name: Boom 1000 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: BOOM1000
+BOOM500:
+  asset: BOOM500
+  display_name: Boom 500 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: BOOM500
 BSESENSEX30:
   asset: BSESENSEX30
   display_name: Bombay Index
@@ -102,6 +199,96 @@ BSESENSEX30:
   quoted_currency: INR
   submarket: asia_oceania
   symbol: BSESENSEX30
+CL_BRENT:
+  asset: CL_BRENT
+  display_name: Brent Crude Oil
+  exchange_name: BRENT_OTC
+  instrument_type: commodities
+  market: commodities
+  market_conversion:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: energy
+  symbol: CL_BRENT
+CRASH1000:
+  asset: CRASH1000
+  display_name: Crash 1000 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: CRASH1000
+CRASH500:
+  asset: CRASH500
+  display_name: Crash 500 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: CRASH500
+DEADS:
+  asset: DEADS
+  display_name: Adidas
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEADS
+DEBAYER:
+  asset: DEBAYER
+  display_name: Bayer AG
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEBAYER
+DEBMW:
+  asset: DEBMW
+  display_name: BMW
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEBMW
+DEDBK:
+  asset: DEDBK
+  display_name: Deutsche Bank
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEDBK
 DFMGI:
   asset: DFMGI
   display_name: Dubai Index
@@ -284,6 +471,81 @@ JCI:
   quoted_currency: IDR
   submarket: asia_oceania
   symbol: JCI
+JD10:
+  asset: JD10
+  display_name: Volatility 10 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD10
+JD100:
+  asset: JD100
+  display_name: Volatility 100 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD100
+JD25:
+  asset: JD25
+  display_name: Volatility 25 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD25
+JD50:
+  asset: JD50
+  display_name: Volatility 50 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD50
+JD75:
+  asset: JD75
+  display_name: Volatility 75 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD75
 KOSPI2:
   asset: KOSPI2
   display_name: Korean Index
@@ -492,19 +754,6 @@ OTC_IBEX35:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_IBEX35
-OTC_NDX:
-  asset: OTC_NDX
-  display_name: US Tech Index
-  exchange_name: NASDAQ_OTC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: americas_OTC
-  symbol: OTC_NDX
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese Index
@@ -518,19 +767,19 @@ OTC_N225:
   quoted_currency: JPY
   submarket: asia_oceania_OTC
   symbol: OTC_N225
-OTC_SSMI:
-  asset: OTC_SSMI
-  display_name: Swiss Index
-  exchange_name: SWX_OTC
+OTC_NDX:
+  asset: OTC_NDX
+  display_name: US Tech Index
+  exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
-  quoted_currency: CHF
-  submarket: europe_OTC
-  symbol: OTC_SSMI
+  quoted_currency: USD
+  submarket: americas_OTC
+  symbol: OTC_NDX
 OTC_SPC:
   asset: OTC_SPC
   display_name: US Index
@@ -544,6 +793,19 @@ OTC_SPC:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_SPC
+OTC_SSMI:
+  asset: OTC_SSMI
+  display_name: Swiss Index
+  exchange_name: SWX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: europe_OTC
+  symbol: OTC_SSMI
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 Index
@@ -570,6 +832,28 @@ PSI20:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: PSI20
+RB100:
+  asset: RB100
+  display_name: Range Break 100 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.1
+  quoted_currency: ~
+  submarket: range_index
+  symbol: RB100
+RB200:
+  asset: RB200
+  display_name: Range Break 200 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.1
+  quoted_currency: ~
+  submarket: range_index
+  symbol: RB200
 RDBEAR:
   asset: RDBEAR
   display_name: Bear Market Index
@@ -579,11 +863,11 @@ RDBEAR:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.0001
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBEAR
-  market_type: non_financial
 RDBULL:
   asset: RDBULL
   display_name: Bull Market Index
@@ -593,11 +877,11 @@ RDBULL:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.0001
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBULL
-  market_type: non_financial
 RTSI:
   asset: RTSI
   display_name: Russian Regular Index
@@ -620,11 +904,11 @@ R_10:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.001
   quoted_currency: ~
   submarket: random_index
   symbol: R_10
-  market_type: non_financial
 R_100:
   asset: R_100
   display_name: Volatility 100 Index
@@ -634,11 +918,11 @@ R_100:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.01
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
-  market_type: non_financial
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
@@ -648,11 +932,11 @@ R_25:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.001
   quoted_currency: ~
   submarket: random_index
   symbol: R_25
-  market_type: non_financial
 R_50:
   asset: R_50
   display_name: Volatility 50 Index
@@ -662,11 +946,11 @@ R_50:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.0001
   quoted_currency: ~
   submarket: random_index
   symbol: R_50
-  market_type: non_financial
 R_75:
   asset: R_75
   display_name: Volatility 75 Index
@@ -676,11 +960,11 @@ R_75:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
+  market_type: non_financial
   pip_size: 0.0001
   quoted_currency: ~
   submarket: random_index
   symbol: R_75
-  market_type: non_financial
 SASEIDX:
   asset: SASEIDX
   display_name: Saudi Arabia Index
@@ -902,6 +1186,591 @@ TOP40:
   quoted_currency: ZAR
   submarket: europe_africa
   symbol: TOP40
+USAAIR:
+  asset: USAAIR
+  display_name: American Airlines Group Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAAIR
+USAAPL:
+  asset: USAAPL
+  display_name: Apple
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAAPL
+USAIG:
+  asset: USAIG
+  display_name: American International Group Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAIG
+USALIBA:
+  asset: USALIBA
+  display_name: Alibaba
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USALIBA
+USAMX:
+  asset: USAMX
+  display_name: American Express
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAMX
+USAMZN:
+  asset: USAMZN
+  display_name: Amazon.com
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAMZN
+USBAC:
+  asset: USBAC
+  display_name: Bank of America Corporation
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USBAC
+USBNG:
+  asset: USBNG
+  display_name: Boeing
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USBNG
+USC:
+  asset: USC
+  display_name: Citigroup Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USC
+USCRM:
+  asset: USCRM
+  display_name: Salesforce
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCRM
+USCSCO:
+  asset: USCSCO
+  display_name: Cisco Systems Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCSCO
+USCT:
+  asset: USCT
+  display_name: Citigroup
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCT
+USCVX:
+  asset: USCVX
+  display_name: Chevron Co.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USCVX
+USDELL:
+  asset: USDELL
+  display_name: Dell Technologies Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USDELL
+USDIS:
+  asset: USDIS
+  display_name: The Walt Disney Company
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USDIS
+USDLT:
+  asset: USDLT
+  display_name: Delta Air Lines Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USDLT
+USEBY:
+  asset: USEBY
+  display_name: eBay Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USEBY
+USFB:
+  asset: USFB
+  display_name: Facebook
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USFB
+USFDX:
+  asset: USFDX
+  display_name: FedEx
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USFDX
+USGLDSCH:
+  asset: USGLDSCH
+  display_name: Goldman Sachs
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USGLDSCH
+USGM:
+  asset: USGM
+  display_name: General Motors Company
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USGM
+USGOOG:
+  asset: USGOOG
+  display_name: Alphabet
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USGOOG
+USHPQ:
+  asset: USHPQ
+  display_name: HP Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USHPQ
+USIBM:
+  asset: USIBM
+  display_name: IBM
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USIBM
+USINTC:
+  asset: USINTC
+  display_name: Intel
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USINTC
+USJNJ:
+  asset: USJNJ
+  display_name: Johnson & Johnson
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USJNJ
+USJPM:
+  asset: USJPM
+  display_name: JP Morgan Chase & Co.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USJPM
+USKO:
+  asset: USKO
+  display_name: Coca-Cola Co
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USKO
+USMA:
+  asset: USMA
+  display_name: MasterCard
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMA
+USMCD:
+  asset: USMCD
+  display_name: McDonald's
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMCD
+USMMM:
+  asset: USMMM
+  display_name: 3M Company
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMMM
+USMSFT:
+  asset: USMSFT
+  display_name: Microsoft
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMSFT
+USNKE:
+  asset: USNKE
+  display_name: Nike Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNKE
+USNTFLX:
+  asset: USNTFLX
+  display_name: Netflix Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNTFLX
+USNVDA:
+  asset: USNVDA
+  display_name: Nvidia
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNVDA
+USPFE:
+  asset: USPFE
+  display_name: Pfizer Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPFE
+USPG:
+  asset: USPG
+  display_name: Procter & Gamble
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPG
+USPYPL:
+  asset: USPYPL
+  display_name: PayPal
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPYPL
+USTEVA:
+  asset: USTEVA
+  display_name: Teva Pharmaceutical Industries Limited
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USTEVA
+USTSLMTR:
+  asset: USTSLMTR
+  display_name: Tesla Motors Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USTSLMTR
+USTWTR:
+  asset: USTWTR
+  display_name: Twitter Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USTWTR
+USUBER:
+  asset: USUBER
+  display_name: Uber Technologies Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USUBER
+USVISA:
+  asset: USVISA
+  display_name: VISA Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USVISA
+USWMT:
+  asset: USWMT
+  display_name: Wal-Mart Stores Inc.
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USWMT
+USZM:
+  asset: USZM
+  display_name: Zoom Video Communications
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USZM
 WLDAUD:
   asset: AUD
   display_name: AUD Index
@@ -941,6 +1810,19 @@ WLDGBP:
   quoted_currency: WLDGBP
   submarket: smart_fx
   symbol: WLDGBP
+WLDGOLD:
+  asset: G
+  display_name: G Index
+  exchange_name: FOREX
+  instrument_type: smart_fx
+  market: commodities
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.001
+  quoted_currency: WLDGOLD
+  submarket: smart_fx
+  symbol: WLDGOLD
 WLDUSD:
   asset: USD
   display_name: USD Index
@@ -967,6 +1849,522 @@ WLDXAU:
   quoted_currency: WLDXAU
   submarket: smart_fx
   symbol: WLDXAU
+WTI_OIL:
+  asset: WTI_OIL
+  display_name: WTI Crude Oil
+  exchange_name: OIL_OTC
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: energy
+  symbol: WTI_OIL
+cryBCHUSD:
+  asset: BCH
+  display_name: BCH/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryBCHUSD
+cryBCHUSDmf:
+  asset: BCH
+  display_name: BCH/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryBCHUSDmf
+cryBNBUSD:
+  asset: BNB
+  display_name: BNB/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryBNBUSD
+cryBTCAUD:
+  asset: BTC
+  display_name: BTC/AUD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: AUD
+  submarket: non_stable_coin
+  symbol: cryBTCAUD
+cryBTCBCH:
+  asset: BTC
+  display_name: BTC/BCH
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: BCH
+  submarket: non_stable_coin
+  symbol: cryBTCBCH
+cryBTCCAD:
+  asset: BTC
+  display_name: BTC/CAD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: CAD
+  submarket: non_stable_coin
+  symbol: cryBTCCAD
+cryBTCCHF:
+  asset: BTC
+  display_name: BTC/CHF
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: CHF
+  submarket: non_stable_coin
+  symbol: cryBTCCHF
+cryBTCETH:
+  asset: BTC
+  display_name: BTC/ETH
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: ETH
+  submarket: non_stable_coin
+  symbol: cryBTCETH
+cryBTCEUR:
+  asset: BTC
+  display_name: BTC/EUR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: EUR
+  submarket: non_stable_coin
+  symbol: cryBTCEUR
+cryBTCGBP:
+  asset: BTC
+  display_name: BTC/GBP
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: GBP
+  submarket: non_stable_coin
+  symbol: cryBTCGBP
+cryBTCJPY:
+  asset: BTC
+  display_name: BTC/JPY
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 1
+  quoted_currency: JPY
+  submarket: non_stable_coin
+  symbol: cryBTCJPY
+cryBTCLTC:
+  asset: BTC
+  display_name: BTC/LTC
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: LTC
+  submarket: non_stable_coin
+  symbol: cryBTCLTC
+cryBTCNZD:
+  asset: BTC
+  display_name: BTC/NZD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: NZD
+  submarket: non_stable_coin
+  symbol: cryBTCNZD
+cryBTCRUB:
+  asset: BTC
+  display_name: BTC/RUB
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 1
+  quoted_currency: RUB
+  submarket: non_stable_coin
+  symbol: cryBTCRUB
+cryBTCUSD:
+  asset: BTC
+  display_name: BTC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryBTCUSD
+cryBTCUSDmf:
+  asset: BTC
+  display_name: BTC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryBTCUSDmf
+cryBTCXAG:
+  asset: BTC
+  display_name: BTC/XAG
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: XAG
+  submarket: non_stable_coin
+  symbol: cryBTCXAG
+cryBTCXAU:
+  asset: BTC
+  display_name: BTC/XAU
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: XAU
+  submarket: non_stable_coin
+  symbol: cryBTCXAU
+cryBTCXRP:
+  asset: BTC
+  display_name: BTC/XRP
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: XRP
+  submarket: non_stable_coin
+  symbol: cryBTCXRP
+cryBUSDUSD:
+  asset: BUSD
+  display_name: BUSD/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryBUSDUSD
+cryDAIUSD:
+  asset: DAI
+  display_name: DAI/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryDAIUSD
+cryDSHUSD:
+  asset: DSH
+  display_name: DSH/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryDSHUSD
+cryDSHUSDmf:
+  asset: DSH
+  display_name: DSH/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryDSHUSDmf
+cryEOSUSD:
+  asset: EOS
+  display_name: EOS/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryEOSUSD
+cryEOSUSDmf:
+  asset: EOS
+  display_name: EOS/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryEOSUSDmf
+cryETHEUR:
+  asset: ETH
+  display_name: ETH/EUR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: EUR
+  submarket: non_stable_coin
+  symbol: cryETHEUR
+cryETHUSD:
+  asset: ETH
+  display_name: ETH/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryETHUSD
+cryETHUSDmf:
+  asset: ETH
+  display_name: ETH/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryETHUSDmf
+cryEURSUSD:
+  asset: EURS
+  display_name: EURS/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryEURSUSD
+cryIDKUSD:
+  asset: IDK
+  display_name: IDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryIDKUSD
+cryIOTUSD:
+  asset: IOT
+  display_name: IOT/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryIOTUSD
+cryLTCEUR:
+  asset: LTC
+  display_name: LTC/EUR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: EUR
+  submarket: non_stable_coin
+  symbol: cryLTCEUR
+cryLTCUSD:
+  asset: LTC
+  display_name: LTC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryLTCUSD
+cryLTCUSDmf:
+  asset: LTC
+  display_name: LTC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryLTCUSDmf
+cryNEOUSD:
+  asset: NEO
+  display_name: NEO/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryNEOUSD
+cryOMGUSD:
+  asset: OMG
+  display_name: OMG/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryOMGUSD
+cryPAXUSD:
+  asset: PAX
+  display_name: PAX/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryPAXUSD
+cryTRXUSD:
+  asset: TRX
+  display_name: TRX/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryTRXUSD
+cryTUSDUSD:
+  asset: TUSD
+  display_name: TUSD/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryTUSDUSD
+cryUSDCUSD:
+  asset: USDC
+  display_name: USDC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryUSDCUSD
+cryUSDKUSD:
+  asset: USDK
+  display_name: USDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryUSDKUSD
+cryUSTUSD:
+  asset: UST
+  display_name: UST/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryUSTUSD
+cryXLMUSD:
+  asset: XLM
+  display_name: XLM/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryXLMUSD
+cryXMLUSD:
+  asset: XML
+  display_name: XML/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.00001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryXMLUSD
+cryXMRUSD:
+  asset: XMR
+  display_name: XMR/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryXMRUSD
+cryXRPEUR:
+  asset: XRP
+  display_name: XRP/EUR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.000001
+  quoted_currency: EUR
+  submarket: non_stable_coin
+  symbol: cryXRPEUR
+cryXRPUSD:
+  asset: XRP
+  display_name: XRP/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryXRPUSD
+cryXRPUSDmf:
+  asset: XRP
+  display_name: XRP/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurreny
+  market: cryptocurrency
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryXRPUSDmf
+cryZECUSD:
+  asset: ZEC
+  display_name: ZEC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryZECUSD
+cryeUSDTUSD:
+  asset: eUSDT
+  display_name: eUSDT/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryeUSDTUSD
 frxAUDAED:
   asset: AUD
   display_name: AUD/AED
@@ -999,6 +2397,22 @@ frxAUDCAD:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxAUDCAD
+frxAUDCADmicro:
+  asset: AUD
+  display_name: AUD/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxAUDCADmicro
 frxAUDCHF:
   asset: AUD
   display_name: AUD/CHF
@@ -1015,6 +2429,22 @@ frxAUDCHF:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxAUDCHF
+frxAUDCHFmicro:
+  asset: AUD
+  display_name: AUD/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxAUDCHFmicro
 frxAUDHKD:
   asset: AUD
   display_name: AUD/HKD
@@ -1079,6 +2509,22 @@ frxAUDJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxAUDJPY
+frxAUDJPYmicro:
+  asset: AUD
+  display_name: AUD/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxAUDJPYmicro
 frxAUDMXN:
   asset: AUD
   display_name: AUD/MXN
@@ -1127,6 +2573,22 @@ frxAUDNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxAUDNZD
+frxAUDNZDmicro:
+  asset: AUD
+  display_name: AUD/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxAUDNZDmicro
 frxAUDPLN:
   asset: AUD
   display_name: AUD/PLN
@@ -1207,6 +2669,22 @@ frxAUDUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxAUDUSD
+frxAUDUSDmicro:
+  asset: AUD
+  display_name: AUD/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxAUDUSDmicro
 frxAUDZAR:
   asset: AUD
   display_name: AUDZAR
@@ -1367,6 +2845,22 @@ frxEURAUD:
   quoted_currency: AUD
   submarket: major_pairs
   symbol: frxEURAUD
+frxEURAUDmicro:
+  asset: EUR
+  display_name: EUR/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxEURAUDmicro
 frxEURCAD:
   asset: EUR
   display_name: EUR/CAD
@@ -1383,6 +2877,22 @@ frxEURCAD:
   quoted_currency: CAD
   submarket: major_pairs
   symbol: frxEURCAD
+frxEURCADmicro:
+  asset: EUR
+  display_name: EUR/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxEURCADmicro
 frxEURCHF:
   asset: EUR
   display_name: EUR/CHF
@@ -1399,6 +2909,22 @@ frxEURCHF:
   quoted_currency: CHF
   submarket: major_pairs
   symbol: frxEURCHF
+frxEURCHFmicro:
+  asset: EUR
+  display_name: EUR/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxEURCHFmicro
 frxEURGBP:
   asset: EUR
   display_name: EUR/GBP
@@ -1415,6 +2941,22 @@ frxEURGBP:
   quoted_currency: GBP
   submarket: major_pairs
   symbol: frxEURGBP
+frxEURGBPmicro:
+  asset: EUR
+  display_name: EUR/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxEURGBPmicro
 frxEURHKD:
   asset: EUR
   display_name: EUR/HKD
@@ -1447,6 +2989,22 @@ frxEURIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxEURIDR
+frxEURILS:
+  asset: EUR
+  display_name: EUR/ILS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: ILS
+  submarket: minor_pairs
+  symbol: frxEURILS
 frxEURINR:
   asset: EUR
   display_name: EUR/INR
@@ -1479,6 +3037,22 @@ frxEURJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxEURJPY
+frxEURJPYmicro:
+  asset: EUR
+  display_name: EUR/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxEURJPYmicro
 frxEURMXN:
   asset: EUR
   display_name: EUR/MXN
@@ -1527,6 +3101,22 @@ frxEURNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxEURNZD
+frxEURNZDmicro:
+  asset: EUR
+  display_name: EUR/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxEURNZDmicro
 frxEURPLN:
   asset: EUR
   display_name: EUR/PLN
@@ -1607,6 +3197,22 @@ frxEURUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxEURUSD
+frxEURUSDmicro:
+  asset: EUR
+  display_name: EUR/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxEURUSDmicro
 frxEURZAR:
   asset: EUR
   display_name: EUR/ZAR
@@ -1687,6 +3293,22 @@ frxGBPCHF:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxGBPCHF
+frxGBPCHFmicro:
+  asset: GBP
+  display_name: GBP/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxGBPCHFmicro
 frxGBPHKD:
   asset: GBP
   display_name: GBP/HKD
@@ -1751,6 +3373,22 @@ frxGBPJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxGBPJPY
+frxGBPJPYmicro:
+  asset: GBP
+  display_name: GBP/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxGBPJPYmicro
 frxGBPMXN:
   asset: GBP
   display_name: GBP/MXN
@@ -1879,6 +3517,22 @@ frxGBPUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxGBPUSD
+frxGBPUSDmicro:
+  asset: GBP
+  display_name: GBP/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxGBPUSDmicro
 frxGBPZAR:
   asset: GBP
   display_name: GBP/ZAR
@@ -1895,6 +3549,38 @@ frxGBPZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxGBPZAR
+frxHKDJPY:
+  asset: HKD
+  display_name: HKD/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxHKDJPY
+frxNZDCAD:
+  asset: NZD
+  display_name: NZD/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxNZDCAD
 frxNZDCHF:
   asset: NZD
   display_name: NZDCHF
@@ -1927,6 +3613,22 @@ frxNZDJPY:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxNZDJPY
+frxNZDSGD:
+  asset: NZD
+  display_name: NZD/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxNZDSGD
 frxNZDUSD:
   asset: NZD
   display_name: NZD/USD
@@ -1943,6 +3645,38 @@ frxNZDUSD:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxNZDUSD
+frxNZDUSDmicro:
+  asset: NZD
+  display_name: NZD/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxNZDUSDmicro
+frxSGDJPY:
+  asset: SGD
+  display_name: SGD/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxSGDJPY
 frxUSDAED:
   asset: USD
   display_name: USD/AED
@@ -1975,6 +3709,22 @@ frxUSDCAD:
   quoted_currency: CAD
   submarket: major_pairs
   symbol: frxUSDCAD
+frxUSDCADmicro:
+  asset: USD
+  display_name: USD/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxUSDCADmicro
 frxUSDCHF:
   asset: USD
   display_name: USD/CHF
@@ -1991,6 +3741,38 @@ frxUSDCHF:
   quoted_currency: CHF
   submarket: major_pairs
   symbol: frxUSDCHF
+frxUSDCHFmicro:
+  asset: USD
+  display_name: USD/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxUSDCHFmicro
+frxUSDCNH:
+  asset: USD
+  display_name: USD/CNH
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: CNH
+  submarket: minor_pairs
+  symbol: frxUSDCNH
 frxUSDHKD:
   asset: USD
   display_name: USD/HKD
@@ -2023,6 +3805,22 @@ frxUSDIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxUSDIDR
+frxUSDILS:
+  asset: USD
+  display_name: USD/ILS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: ILS
+  submarket: minor_pairs
+  symbol: frxUSDILS
 frxUSDINR:
   asset: USD
   display_name: USD/INR
@@ -2055,6 +3853,22 @@ frxUSDJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxUSDJPY
+frxUSDJPYmicro:
+  asset: USD
+  display_name: USD/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxUSDJPYmicro
 frxUSDMXN:
   asset: USD
   display_name: USD/MXN
@@ -2103,6 +3917,22 @@ frxUSDPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxUSDPLN
+frxUSDRUB:
+  asset: USD
+  display_name: USD/RUB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: RUB
+  submarket: minor_pairs
+  symbol: frxUSDRUB
 frxUSDSEK:
   asset: USD
   display_name: USD/SEK
@@ -2135,6 +3965,22 @@ frxUSDSGD:
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxUSDSGD
+frxUSDTHB:
+  asset: USD
+  display_name: USD/THB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: THB
+  submarket: minor_pairs
+  symbol: frxUSDTHB
 frxUSDTRY:
   asset: USD
   display_name: USD/TRY
@@ -2843,36 +4689,6 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
-stpAUDUSD:
-  asset: AUD
-  display_name: AUD/USD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: step_index
-  symbol: stpAUDUSD
-stpUSDCAD:
-  asset: USD
-  display_name: USD/CAD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: CAD
-  submarket: step_index
-  symbol: stpUSDCAD
-stpEURCAD:
-  asset: EUR
-  display_name: EUR/CAD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: CAD
-  submarket: step_index
-  symbol: stpEURCAD
 stpAUDJPY:
   asset: AUD
   display_name: AUD/JPY Step Index
@@ -2883,6 +4699,26 @@ stpAUDJPY:
   quoted_currency: JPY
   submarket: step_index
   symbol: stpAUDJPY
+stpAUDUSD:
+  asset: AUD
+  display_name: AUD/USD Step Index
+  exchange_name: FOREX
+  instrument_type: synthetic_index
+  market: synthetic_index
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: step_index
+  symbol: stpAUDUSD
+stpEURCAD:
+  asset: EUR
+  display_name: EUR/CAD Step Index
+  exchange_name: FOREX
+  instrument_type: synthetic_index
+  market: synthetic_index
+  pip_size: 0.001
+  quoted_currency: CAD
+  submarket: step_index
+  symbol: stpEURCAD
 stpEURGBP:
   asset: EUR
   display_name: EUR/GBP Step Index
@@ -2893,16 +4729,6 @@ stpEURGBP:
   quoted_currency: GBP
   submarket: step_index
   symbol: stpEURGBP
-stpUSDJPY:
-  asset: USD
-  display_name: USD/JPY Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: JPY
-  submarket: step_index
-  symbol: stpUSDJPY
 stpEURJPY:
   asset: EUR
   display_name: EUR/JPY Step Index
@@ -2929,224 +4755,28 @@ stpRNG:
   exchange_name: RANDOM
   instrument_type: ~
   market: synthetic_index
+  market_type: non_financial
   pip_size: 0.1
   quoted_currency: ~
   submarket: step_index
   symbol: stpRNG
-  market_type: non_financial
-CRASH1000:
-  asset: CRASH1000
-  display_name: Crash 1000 Index
-  exchange_name: RANDOM
-  instrument_type: ~
+stpUSDCAD:
+  asset: USD
+  display_name: USD/CAD Step Index
+  exchange_name: FOREX
+  instrument_type: synthetic_index
   market: synthetic_index
   pip_size: 0.001
-  quoted_currency: ~
-  submarket: crash_index
-  symbol: CRASH1000
-  market_type: non_financial
-BOOM1000:
-  asset: BOOM1000
-  display_name: Boom 1000 Index
-  exchange_name: RANDOM
-  instrument_type: ~
+  quoted_currency: CAD
+  submarket: step_index
+  symbol: stpUSDCAD
+stpUSDJPY:
+  asset: USD
+  display_name: USD/JPY Step Index
+  exchange_name: FOREX
+  instrument_type: synthetic_index
   market: synthetic_index
   pip_size: 0.001
-  quoted_currency: ~
-  submarket: crash_index
-  symbol: BOOM1000
-  market_type: non_financial
-CRASH500:
-  asset: CRASH500
-  display_name: Crash 500 Index
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: ~
-  submarket: crash_index
-  symbol: CRASH500
-  market_type: non_financial
-BOOM500:
-  asset: BOOM500
-  display_name: Boom 500 Index
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: ~
-  submarket: crash_index
-  symbol: BOOM500
-  market_type: non_financial
-RB100:
-  asset: RB100
-  display_name: Range Break 100 Index
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  pip_size: 0.1
-  quoted_currency: ~
-  submarket: range_index
-  symbol: RB100
-  market_type: non_financial
-RB200:
-  asset: RB200
-  display_name: Range Break 200 Index
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  pip_size: 0.1
-  quoted_currency: ~
-  submarket: range_index
-  symbol: RB200
-  market_type: non_financial
-1HZ10V:
-  asset: 1HZ10V
-  display_name: Volatility 10 (1s) Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: 1HZ10V
-  market_type: non_financial
-  generation_interval: 1s
-1HZ100V:
-  asset: 1HZ100V
-  display_name: Volatility 100 (1s) Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: 1HZ100V
-  market_type: non_financial
-  generation_interval: 1s
-1HZ25V:
-  asset: 1HZ25V
-  display_name: Volatility 25 (1s) Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: 1HZ25V
-  market_type: non_financial
-  generation_interval: 1s
-1HZ50V:
-  asset: 1HZ50V
-  display_name: Volatility 50 (1s) Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: 1HZ50V
-  market_type: non_financial
-  generation_interval: 1s
-1HZ75V:
-  asset: 1HZ75V
-  display_name: Volatility 75 (1s) Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: 1HZ75V
-  market_type: non_financial
-  generation_interval: 1s
-JD10:
-  asset: JD10
-  display_name: Volatility 10 Jump diffusion
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD10
-  market_type: non_financial
-  generation_interval: 1s
-JD25:
-  asset: JD25
-  display_name: Volatility 25 Jump diffusion
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD25
-  market_type: non_financial
-  generation_interval: 1s
-JD50:
-  asset: JD50
-  display_name: Volatility 50 Jump diffusion
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD50
-  market_type: non_financial
-  generation_interval: 1s
-JD75:
-  asset: JD75
-  display_name: Volatility 75 Jump diffusion
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD75
-  market_type: non_financial
-  generation_interval: 1s
-JD100:
-  asset: JD100
-  display_name: Volatility 100 Jump diffusion
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD100
-  market_type: non_financial
-  generation_interval: 1s
+  quoted_currency: JPY
+  submarket: step_index
+  symbol: stpUSDJPY
