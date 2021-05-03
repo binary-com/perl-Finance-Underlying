@@ -2759,6 +2759,7 @@ frxAUDNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxAUDNOK
+  is_synthetic: 0
 frxAUDNZD:
   asset: AUD
   display_name: AUD/NZD
