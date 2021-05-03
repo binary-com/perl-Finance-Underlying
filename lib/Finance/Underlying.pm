@@ -64,8 +64,18 @@ sub pipsized_value {
     return $value;
 }
 
+=head2 all_underlyings
+
+Returns all the underlyings.
+Returns only synthetic indices if only_synthetics => 1 is given
+
+=cut
+
 sub all_underlyings {
-    map { $underlyings{$_} } sort keys %underlyings;
+    my %options = @_;
+    my @uls = sort keys %underlyings;
+    @uls = grep { $underlyings{$_}{is_synthetic} } @uls if $options{only_synthetics};
+    map { $underlyings{$_} } @uls;
 }
 
 sub display_decimals {
