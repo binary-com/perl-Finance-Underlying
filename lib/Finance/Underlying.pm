@@ -73,9 +73,9 @@ Returns only synthetic indices if only_synthetics => 1 is given
 
 sub all_underlyings {
     my %options = @_;
-    my @uls = sort keys %underlyings;
+    my @uls = keys %underlyings;
     @uls = grep { $underlyings{$_}{is_synthetic} } @uls if $options{only_synthetics};
-    map { $underlyings{$_} } @uls;
+    map { $underlyings{$_} } sort @uls;
 }
 
 sub display_decimals {
