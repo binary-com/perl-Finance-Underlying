@@ -104,7 +104,6 @@ ADSMI:
   quoted_currency: AED
   submarket: middle_east
   symbol: ADSMI
-  is_synthetic: 0
 AEX:
   asset: AEX
   display_name: Dutch Index
@@ -118,7 +117,6 @@ AEX:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: AEX
-  is_synthetic: 0
 AORD:
   asset: AORD
   display_name: AP Ordinary
@@ -132,7 +130,6 @@ AORD:
   quoted_currency: USD
   submarket: asia_oceania
   symbol: AORD
-  is_synthetic: 0
 AS51:
   asset: AS51
   display_name: Australian Index
@@ -146,7 +143,6 @@ AS51:
   quoted_currency: AUD
   submarket: asia_oceania
   symbol: AS51
-  is_synthetic: 0
 BFX:
   asset: BFX
   display_name: Belgian Index
@@ -160,7 +156,6 @@ BFX:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: BFX
-  is_synthetic: 0
 BIST100:
   asset: BIST100
   display_name: Istanbul Index
@@ -174,7 +169,6 @@ BIST100:
   quoted_currency: TRY
   submarket: europe_africa
   symbol: BIST100
-  is_synthetic: 0
 BOOM1000:
   asset: BOOM1000
   display_name: Boom 1000 Index
@@ -212,7 +206,6 @@ BSESENSEX30:
   quoted_currency: INR
   submarket: asia_oceania
   symbol: BSESENSEX30
-  is_synthetic: 0
 CL_BRENT:
   asset: CL_BRENT
   display_name: Brent Crude Oil
@@ -229,7 +222,6 @@ CL_BRENT:
   quoted_currency: USD
   submarket: energy
   symbol: CL_BRENT
-  is_synthetic: 0
 CRASH1000:
   asset: CRASH1000
   display_name: Crash 1000 Index
@@ -267,7 +259,6 @@ DEADS:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEADS
-  is_synthetic: 0
 DEBAYER:
   asset: DEBAYER
   display_name: Bayer AG
@@ -281,7 +272,6 @@ DEBAYER:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEBAYER
-  is_synthetic: 0
 DEBMW:
   asset: DEBMW
   display_name: BMW
@@ -295,7 +285,6 @@ DEBMW:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEBMW
-  is_synthetic: 0
 DEDBK:
   asset: DEDBK
   display_name: Deutsche Bank
@@ -309,7 +298,6 @@ DEDBK:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEDBK
-  is_synthetic: 0
 DFMGI:
   asset: DFMGI
   display_name: Dubai Index
@@ -323,7 +311,6 @@ DFMGI:
   quoted_currency: AED
   submarket: middle_east
   symbol: DFMGI
-  is_synthetic: 0
 DJI:
   asset: DJI
   display_name: Wall Street Index
@@ -337,7 +324,6 @@ DJI:
   quoted_currency: USD
   submarket: americas
   symbol: DJI
-  is_synthetic: 0
 EGX30:
   asset: EGX30
   display_name: Egypt Index
@@ -351,7 +337,6 @@ EGX30:
   quoted_currency: EGP
   submarket: middle_east
   symbol: EGX30
-  is_synthetic: 0
 FCHI:
   asset: FCHI
   display_name: French Index
@@ -365,7 +350,6 @@ FCHI:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: FCHI
-  is_synthetic: 0
 FTSE:
   asset: FTSE
   display_name: UK Index
@@ -379,7 +363,6 @@ FTSE:
   quoted_currency: GBP
   submarket: europe_africa
   symbol: FTSE
-  is_synthetic: 0
 FTSEMIB:
   asset: FTSEMIB
   display_name: Italian Index
@@ -393,7 +376,6 @@ FTSEMIB:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: FTSEMIB
-  is_synthetic: 0
 GDAXI:
   asset: GDAXI
   display_name: German Index
@@ -407,7 +389,6 @@ GDAXI:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: GDAXI
-  is_synthetic: 0
 HSCEI:
   asset: HSCEI
   display_name: Hang Seng China
@@ -421,7 +402,6 @@ HSCEI:
   quoted_currency: HKD
   submarket: asia_oceania
   symbol: HSCEI
-  is_synthetic: 0
 HSI:
   asset: HSI
   display_name: Hong Kong Index
@@ -435,7 +415,6 @@ HSI:
   quoted_currency: HKD
   submarket: asia_oceania
   symbol: HSI
-  is_synthetic: 0
 IBEX35:
   asset: IBEX35
   display_name: Spanish Index
@@ -449,7 +428,6 @@ IBEX35:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: IBEX35
-  is_synthetic: 0
 IBOV:
   asset: IBOV
   display_name: Brazilian Index
@@ -463,7 +441,6 @@ IBOV:
   quoted_currency: BRL
   submarket: americas
   symbol: IBOV
-  is_synthetic: 0
 ISEQ:
   asset: ISEQ
   display_name: Irish Index
@@ -477,7 +454,6 @@ ISEQ:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: ISEQ
-  is_synthetic: 0
 IXIC:
   asset: IXIC
   display_name: US Tech Composite Index
@@ -491,7 +467,6 @@ IXIC:
   quoted_currency: USD
   submarket: americas
   symbol: IXIC
-  is_synthetic: 0
 JCI:
   asset: JCI
   display_name: Jakarta Index
@@ -505,7 +480,6 @@ JCI:
   quoted_currency: IDR
   submarket: asia_oceania
   symbol: JCI
-  is_synthetic: 0
 JD10:
   asset: JD10
   display_name: Volatility 10 Jump diffusion
@@ -599,7 +573,6 @@ KOSPI2:
   quoted_currency: KRW
   submarket: asia_oceania
   symbol: KOSPI2
-  is_synthetic: 0
 MIB30:
   asset: MIB30
   display_name: Italian 30 Index
@@ -613,7 +586,6 @@ MIB30:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: MIB30
-  is_synthetic: 0
 N100:
   asset: N100
   display_name: Euro 100 Index
@@ -627,7 +599,6 @@ N100:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: N100
-  is_synthetic: 0
 N150:
   asset: N150
   display_name: Euro 150 Index
@@ -641,7 +612,6 @@ N150:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: N150
-  is_synthetic: 0
 N225:
   asset: N225
   display_name: Japanese Index
@@ -655,7 +625,6 @@ N225:
   quoted_currency: JPY
   submarket: asia_oceania
   symbol: N225
-  is_synthetic: 0
 NDX:
   asset: NDX
   display_name: US Tech 100 Index
@@ -669,7 +638,6 @@ NDX:
   quoted_currency: USD
   submarket: americas
   symbol: NDX
-  is_synthetic: 0
 OBX:
   asset: OBX
   display_name: Norwegian Index
@@ -683,7 +651,6 @@ OBX:
   quoted_currency: NOK
   submarket: europe_africa
   symbol: OBX
-  is_synthetic: 0
 OMXS30:
   asset: OMXS30
   display_name: Swedish Index
@@ -697,7 +664,6 @@ OMXS30:
   quoted_currency: SEK
   submarket: europe_africa
   symbol: OMXS30
-  is_synthetic: 0
 OTC_AEX:
   asset: OTC_AEX
   display_name: Dutch Index
@@ -711,7 +677,6 @@ OTC_AEX:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_AEX
-  is_synthetic: 0
 OTC_AS51:
   asset: OTC_AS51
   display_name: Australian Index
@@ -725,7 +690,6 @@ OTC_AS51:
   quoted_currency: AUD
   submarket: asia_oceania_OTC
   symbol: OTC_AS51
-  is_synthetic: 0
 OTC_DJI:
   asset: OTC_DJI
   display_name: Wall Street Index
@@ -739,7 +703,6 @@ OTC_DJI:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_DJI
-  is_synthetic: 0
 OTC_FCHI:
   asset: OTC_FCHI
   display_name: French Index
@@ -753,7 +716,6 @@ OTC_FCHI:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_FCHI
-  is_synthetic: 0
 OTC_FTSE:
   asset: OTC_FTSE
   display_name: UK Index
@@ -767,7 +729,6 @@ OTC_FTSE:
   quoted_currency: GBP
   submarket: europe_OTC
   symbol: OTC_FTSE
-  is_synthetic: 0
 OTC_GDAXI:
   asset: OTC_GDAXI
   display_name: German Index
@@ -781,7 +742,6 @@ OTC_GDAXI:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_GDAXI
-  is_synthetic: 0
 OTC_HSI:
   asset: OTC_HSI
   display_name: Hong Kong Index
@@ -795,7 +755,6 @@ OTC_HSI:
   quoted_currency: HKD
   submarket: asia_oceania_OTC
   symbol: OTC_HSI
-  is_synthetic: 0
 OTC_IBEX35:
   asset: OTC_IBEX35
   display_name: Spanish Index
@@ -809,7 +768,6 @@ OTC_IBEX35:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_IBEX35
-  is_synthetic: 0
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese Index
@@ -823,7 +781,6 @@ OTC_N225:
   quoted_currency: JPY
   submarket: asia_oceania_OTC
   symbol: OTC_N225
-  is_synthetic: 0
 OTC_NDX:
   asset: OTC_NDX
   display_name: US Tech Index
@@ -837,7 +794,6 @@ OTC_NDX:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_NDX
-  is_synthetic: 0
 OTC_SPC:
   asset: OTC_SPC
   display_name: US Index
@@ -851,7 +807,6 @@ OTC_SPC:
   quoted_currency: USD
   submarket: americas_OTC
   symbol: OTC_SPC
-  is_synthetic: 0
 OTC_SSMI:
   asset: OTC_SSMI
   display_name: Swiss Index
@@ -865,7 +820,6 @@ OTC_SSMI:
   quoted_currency: CHF
   submarket: europe_OTC
   symbol: OTC_SSMI
-  is_synthetic: 0
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 Index
@@ -879,7 +833,6 @@ OTC_SX5E:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: OTC_SX5E
-  is_synthetic: 0
 PSI20:
   asset: PSI20
   display_name: Portuguese Index
@@ -893,7 +846,6 @@ PSI20:
   quoted_currency: EUR
   submarket: europe_OTC
   symbol: PSI20
-  is_synthetic: 0
 RB100:
   asset: RB100
   display_name: Range Break 100 Index
@@ -961,7 +913,6 @@ RTSI:
   quoted_currency: USD
   submarket: europe_africa
   symbol: RTSI
-  is_synthetic: 0
 R_10:
   asset: R_10
   display_name: Volatility 10 Index
@@ -1050,7 +1001,6 @@ SASEIDX:
   quoted_currency: SAR
   submarket: middle_east
   symbol: SASEIDX
-  is_synthetic: 0
 SPC:
   asset: SPC
   display_name: US Index
@@ -1064,7 +1014,6 @@ SPC:
   quoted_currency: USD
   submarket: americas
   symbol: SPC
-  is_synthetic: 0
 SPTSX60:
   asset: SPTSX60
   display_name: Canadian Index
@@ -1078,7 +1027,6 @@ SPTSX60:
   quoted_currency: CAD
   submarket: americas
   symbol: SPTSX60
-  is_synthetic: 0
 SSECOMP:
   asset: SSECOMP
   display_name: Shanghai Index
@@ -1092,7 +1040,6 @@ SSECOMP:
   quoted_currency: CNY
   submarket: asia_oceania
   symbol: SSECOMP
-  is_synthetic: 0
 SSMI:
   asset: SSMI
   display_name: Swiss Index
@@ -1106,7 +1053,6 @@ SSMI:
   quoted_currency: CHF
   submarket: europe_africa
   symbol: SSMI
-  is_synthetic: 0
 STI:
   asset: STI
   display_name: Singapore Index
@@ -1120,7 +1066,6 @@ STI:
   quoted_currency: SGD
   submarket: asia_oceania
   symbol: STI
-  is_synthetic: 0
 SX5E:
   asset: SX5E
   display_name: Euro 50 Index
@@ -1134,7 +1079,6 @@ SX5E:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: SX5E
-  is_synthetic: 0
 SYNAEX:
   asset: SYNAEX
   display_name: Dutch Smart Index
@@ -1148,7 +1092,6 @@ SYNAEX:
   quoted_currency: EUR
   submarket: smart_index
   symbol: SYNAEX
-  is_synthetic: 0
 SYNDJI:
   asset: SYNDJI
   display_name: Wall Street Smart Index
@@ -1162,7 +1105,6 @@ SYNDJI:
   quoted_currency: USD
   submarket: smart_index
   symbol: SYNDJI
-  is_synthetic: 0
 SYNFCHI:
   asset: SYNFCHI
   display_name: French Smart Index
@@ -1176,7 +1118,6 @@ SYNFCHI:
   quoted_currency: EUR
   submarket: smart_index
   symbol: SYNFCHI
-  is_synthetic: 0
 SYNFTSE:
   asset: SYNFTSE
   display_name: UK Smart Index
@@ -1190,7 +1131,6 @@ SYNFTSE:
   quoted_currency: GBP
   submarket: smart_index
   symbol: SYNFTSE
-  is_synthetic: 0
 SYNGDAXI:
   asset: SYNGDAXI
   display_name: German Smart Index
@@ -1204,7 +1144,6 @@ SYNGDAXI:
   quoted_currency: EUR
   submarket: smart_index
   symbol: SYNGDAXI
-  is_synthetic: 0
 SYNN225:
   asset: SYNN225
   display_name: Japanese Smart Index
@@ -1218,7 +1157,6 @@ SYNN225:
   quoted_currency: JPY
   submarket: smart_index
   symbol: SYNN225
-  is_synthetic: 0
 SYNSPC:
   asset: SYNSPC
   display_name: US Smart Index
@@ -1232,7 +1170,6 @@ SYNSPC:
   quoted_currency: USD
   submarket: smart_index
   symbol: SYNSPC
-  is_synthetic: 0
 SYNSX5E:
   asset: SYNSX5E
   display_name: Euro 50 Smart Index
@@ -1246,7 +1183,6 @@ SYNSX5E:
   quoted_currency: EUR
   submarket: smart_index
   symbol: SYNSX5E
-  is_synthetic: 0
 SZSECOMP:
   asset: SZSECOMP
   display_name: Shenzhen Index
@@ -1260,7 +1196,6 @@ SZSECOMP:
   quoted_currency: CNY
   submarket: asia_oceania
   symbol: SZSECOMP
-  is_synthetic: 0
 TOP40:
   asset: TOP40
   display_name: South African Index
@@ -1274,7 +1209,6 @@ TOP40:
   quoted_currency: ZAR
   submarket: europe_africa
   symbol: TOP40
-  is_synthetic: 0
 USAAIR:
   asset: USAAIR
   display_name: American Airlines Group Inc.
@@ -1288,7 +1222,6 @@ USAAIR:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAAIR
-  is_synthetic: 0
 USAAPL:
   asset: USAAPL
   display_name: Apple
@@ -1302,7 +1235,6 @@ USAAPL:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAAPL
-  is_synthetic: 0
 USAIG:
   asset: USAIG
   display_name: American International Group Inc.
@@ -1316,7 +1248,6 @@ USAIG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAIG
-  is_synthetic: 0
 USALIBA:
   asset: USALIBA
   display_name: Alibaba
@@ -1330,7 +1261,6 @@ USALIBA:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USALIBA
-  is_synthetic: 0
 USAMX:
   asset: USAMX
   display_name: American Express
@@ -1344,7 +1274,6 @@ USAMX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAMX
-  is_synthetic: 0
 USAMZN:
   asset: USAMZN
   display_name: Amazon.com
@@ -1358,7 +1287,6 @@ USAMZN:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAMZN
-  is_synthetic: 0
 USBAC:
   asset: USBAC
   display_name: Bank of America Corporation
@@ -1372,7 +1300,6 @@ USBAC:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USBAC
-  is_synthetic: 0
 USBNG:
   asset: USBNG
   display_name: Boeing
@@ -1386,7 +1313,6 @@ USBNG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USBNG
-  is_synthetic: 0
 USC:
   asset: USC
   display_name: Citigroup Inc
@@ -1400,7 +1326,6 @@ USC:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USC
-  is_synthetic: 0
 USCRM:
   asset: USCRM
   display_name: Salesforce
@@ -1414,7 +1339,6 @@ USCRM:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USCRM
-  is_synthetic: 0
 USCSCO:
   asset: USCSCO
   display_name: Cisco Systems Inc.
@@ -1428,7 +1352,6 @@ USCSCO:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USCSCO
-  is_synthetic: 0
 USCT:
   asset: USCT
   display_name: Citigroup
@@ -1442,7 +1365,6 @@ USCT:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USCT
-  is_synthetic: 0
 USCVX:
   asset: USCVX
   display_name: Chevron Co.
@@ -1456,7 +1378,6 @@ USCVX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USCVX
-  is_synthetic: 0
 USDELL:
   asset: USDELL
   display_name: Dell Technologies Inc
@@ -1470,7 +1391,6 @@ USDELL:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USDELL
-  is_synthetic: 0
 USDIS:
   asset: USDIS
   display_name: The Walt Disney Company
@@ -1484,7 +1404,6 @@ USDIS:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USDIS
-  is_synthetic: 0
 USDLT:
   asset: USDLT
   display_name: Delta Air Lines Inc.
@@ -1498,7 +1417,6 @@ USDLT:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USDLT
-  is_synthetic: 0
 USEBY:
   asset: USEBY
   display_name: eBay Inc.
@@ -1512,7 +1430,6 @@ USEBY:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USEBY
-  is_synthetic: 0
 USFB:
   asset: USFB
   display_name: Facebook
@@ -1526,7 +1443,6 @@ USFB:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USFB
-  is_synthetic: 0
 USFDX:
   asset: USFDX
   display_name: FedEx
@@ -1540,7 +1456,6 @@ USFDX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USFDX
-  is_synthetic: 0
 USGLDSCH:
   asset: USGLDSCH
   display_name: Goldman Sachs
@@ -1554,7 +1469,6 @@ USGLDSCH:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USGLDSCH
-  is_synthetic: 0
 USGM:
   asset: USGM
   display_name: General Motors Company
@@ -1568,7 +1482,6 @@ USGM:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USGM
-  is_synthetic: 0
 USGOOG:
   asset: USGOOG
   display_name: Alphabet
@@ -1582,7 +1495,6 @@ USGOOG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USGOOG
-  is_synthetic: 0
 USHPQ:
   asset: USHPQ
   display_name: HP Inc
@@ -1596,7 +1508,6 @@ USHPQ:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USHPQ
-  is_synthetic: 0
 USIBM:
   asset: USIBM
   display_name: IBM
@@ -1610,7 +1521,6 @@ USIBM:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USIBM
-  is_synthetic: 0
 USINTC:
   asset: USINTC
   display_name: Intel
@@ -1624,7 +1534,6 @@ USINTC:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USINTC
-  is_synthetic: 0
 USJNJ:
   asset: USJNJ
   display_name: Johnson & Johnson
@@ -1638,7 +1547,6 @@ USJNJ:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USJNJ
-  is_synthetic: 0
 USJPM:
   asset: USJPM
   display_name: JP Morgan Chase & Co.
@@ -1652,7 +1560,6 @@ USJPM:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USJPM
-  is_synthetic: 0
 USKO:
   asset: USKO
   display_name: Coca-Cola Co
@@ -1666,7 +1573,6 @@ USKO:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USKO
-  is_synthetic: 0
 USMA:
   asset: USMA
   display_name: MasterCard
@@ -1680,7 +1586,6 @@ USMA:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USMA
-  is_synthetic: 0
 USMCD:
   asset: USMCD
   display_name: McDonald's
@@ -1694,7 +1599,6 @@ USMCD:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USMCD
-  is_synthetic: 0
 USMMM:
   asset: USMMM
   display_name: 3M Company
@@ -1708,7 +1612,6 @@ USMMM:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USMMM
-  is_synthetic: 0
 USMSFT:
   asset: USMSFT
   display_name: Microsoft
@@ -1722,7 +1625,6 @@ USMSFT:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USMSFT
-  is_synthetic: 0
 USNKE:
   asset: USNKE
   display_name: Nike Inc.
@@ -1736,7 +1638,6 @@ USNKE:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USNKE
-  is_synthetic: 0
 USNTFLX:
   asset: USNTFLX
   display_name: Netflix Inc.
@@ -1750,7 +1651,6 @@ USNTFLX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USNTFLX
-  is_synthetic: 0
 USNVDA:
   asset: USNVDA
   display_name: Nvidia
@@ -1764,7 +1664,6 @@ USNVDA:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USNVDA
-  is_synthetic: 0
 USPFE:
   asset: USPFE
   display_name: Pfizer Inc
@@ -1778,7 +1677,6 @@ USPFE:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USPFE
-  is_synthetic: 0
 USPG:
   asset: USPG
   display_name: Procter & Gamble
@@ -1792,7 +1690,6 @@ USPG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USPG
-  is_synthetic: 0
 USPYPL:
   asset: USPYPL
   display_name: PayPal
@@ -1806,7 +1703,6 @@ USPYPL:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USPYPL
-  is_synthetic: 0
 USTEVA:
   asset: USTEVA
   display_name: Teva Pharmaceutical Industries Limited
@@ -1820,7 +1716,6 @@ USTEVA:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USTEVA
-  is_synthetic: 0
 USTSLMTR:
   asset: USTSLMTR
   display_name: Tesla Motors Inc.
@@ -1834,7 +1729,6 @@ USTSLMTR:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USTSLMTR
-  is_synthetic: 0
 USTWTR:
   asset: USTWTR
   display_name: Twitter Inc.
@@ -1848,7 +1742,6 @@ USTWTR:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USTWTR
-  is_synthetic: 0
 USUBER:
   asset: USUBER
   display_name: Uber Technologies Inc
@@ -1862,7 +1755,6 @@ USUBER:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USUBER
-  is_synthetic: 0
 USVISA:
   asset: USVISA
   display_name: VISA Inc.
@@ -1876,7 +1768,6 @@ USVISA:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USVISA
-  is_synthetic: 0
 USWMT:
   asset: USWMT
   display_name: Wal-Mart Stores Inc.
@@ -1890,7 +1781,6 @@ USWMT:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USWMT
-  is_synthetic: 0
 USZM:
   asset: USZM
   display_name: Zoom Video Communications
@@ -1904,7 +1794,6 @@ USZM:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USZM
-  is_synthetic: 0
 WLDAUD:
   asset: AUD
   display_name: AUD Index
@@ -2005,7 +1894,6 @@ WTI_OIL:
   quoted_currency: USD
   submarket: energy
   symbol: WTI_OIL
-  is_synthetic: 0
 cryBCHUSD:
   asset: BCH
   display_name: BCH/USD
@@ -2016,7 +1904,6 @@ cryBCHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBCHUSD
-  is_synthetic: 0
 cryBCHUSDmf:
   asset: BCH
   display_name: BCH/USD
@@ -2027,7 +1914,6 @@ cryBCHUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBCHUSDmf
-  is_synthetic: 0
 cryBNBUSD:
   asset: BNB
   display_name: BNB/USD
@@ -2038,7 +1924,6 @@ cryBNBUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBNBUSD
-  is_synthetic: 0
 cryBTCAUD:
   asset: BTC
   display_name: BTC/AUD
@@ -2049,7 +1934,6 @@ cryBTCAUD:
   quoted_currency: AUD
   submarket: non_stable_coin
   symbol: cryBTCAUD
-  is_synthetic: 0
 cryBTCBCH:
   asset: BTC
   display_name: BTC/BCH
@@ -2060,7 +1944,6 @@ cryBTCBCH:
   quoted_currency: BCH
   submarket: non_stable_coin
   symbol: cryBTCBCH
-  is_synthetic: 0
 cryBTCCAD:
   asset: BTC
   display_name: BTC/CAD
@@ -2071,7 +1954,6 @@ cryBTCCAD:
   quoted_currency: CAD
   submarket: non_stable_coin
   symbol: cryBTCCAD
-  is_synthetic: 0
 cryBTCCHF:
   asset: BTC
   display_name: BTC/CHF
@@ -2082,7 +1964,6 @@ cryBTCCHF:
   quoted_currency: CHF
   submarket: non_stable_coin
   symbol: cryBTCCHF
-  is_synthetic: 0
 cryBTCETH:
   asset: BTC
   display_name: BTC/ETH
@@ -2093,7 +1974,6 @@ cryBTCETH:
   quoted_currency: ETH
   submarket: non_stable_coin
   symbol: cryBTCETH
-  is_synthetic: 0
 cryBTCEUR:
   asset: BTC
   display_name: BTC/EUR
@@ -2104,7 +1984,6 @@ cryBTCEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryBTCEUR
-  is_synthetic: 0
 cryBTCGBP:
   asset: BTC
   display_name: BTC/GBP
@@ -2115,7 +1994,6 @@ cryBTCGBP:
   quoted_currency: GBP
   submarket: non_stable_coin
   symbol: cryBTCGBP
-  is_synthetic: 0
 cryBTCJPY:
   asset: BTC
   display_name: BTC/JPY
@@ -2126,7 +2004,6 @@ cryBTCJPY:
   quoted_currency: JPY
   submarket: non_stable_coin
   symbol: cryBTCJPY
-  is_synthetic: 0
 cryBTCLTC:
   asset: BTC
   display_name: BTC/LTC
@@ -2137,7 +2014,6 @@ cryBTCLTC:
   quoted_currency: LTC
   submarket: non_stable_coin
   symbol: cryBTCLTC
-  is_synthetic: 0
 cryBTCNZD:
   asset: BTC
   display_name: BTC/NZD
@@ -2148,7 +2024,6 @@ cryBTCNZD:
   quoted_currency: NZD
   submarket: non_stable_coin
   symbol: cryBTCNZD
-  is_synthetic: 0
 cryBTCRUB:
   asset: BTC
   display_name: BTC/RUB
@@ -2159,7 +2034,6 @@ cryBTCRUB:
   quoted_currency: RUB
   submarket: non_stable_coin
   symbol: cryBTCRUB
-  is_synthetic: 0
 cryBTCUSD:
   asset: BTC
   display_name: BTC/USD
@@ -2170,7 +2044,6 @@ cryBTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBTCUSD
-  is_synthetic: 0
 cryBTCUSDmf:
   asset: BTC
   display_name: BTC/USD
@@ -2181,7 +2054,6 @@ cryBTCUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBTCUSDmf
-  is_synthetic: 0
 cryBTCXAG:
   asset: BTC
   display_name: BTC/XAG
@@ -2192,7 +2064,6 @@ cryBTCXAG:
   quoted_currency: XAG
   submarket: non_stable_coin
   symbol: cryBTCXAG
-  is_synthetic: 0
 cryBTCXAU:
   asset: BTC
   display_name: BTC/XAU
@@ -2203,7 +2074,6 @@ cryBTCXAU:
   quoted_currency: XAU
   submarket: non_stable_coin
   symbol: cryBTCXAU
-  is_synthetic: 0
 cryBTCXRP:
   asset: BTC
   display_name: BTC/XRP
@@ -2214,7 +2084,6 @@ cryBTCXRP:
   quoted_currency: XRP
   submarket: non_stable_coin
   symbol: cryBTCXRP
-  is_synthetic: 0
 cryBUSDUSD:
   asset: BUSD
   display_name: BUSD/USD
@@ -2225,7 +2094,6 @@ cryBUSDUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryBUSDUSD
-  is_synthetic: 0
 cryDAIUSD:
   asset: DAI
   display_name: DAI/USD
@@ -2236,7 +2104,6 @@ cryDAIUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryDAIUSD
-  is_synthetic: 0
 cryDSHUSD:
   asset: DSH
   display_name: DSH/USD
@@ -2247,7 +2114,6 @@ cryDSHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryDSHUSD
-  is_synthetic: 0
 cryDSHUSDmf:
   asset: DSH
   display_name: DSH/USD
@@ -2258,7 +2124,6 @@ cryDSHUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryDSHUSDmf
-  is_synthetic: 0
 cryEOSUSD:
   asset: EOS
   display_name: EOS/USD
@@ -2269,7 +2134,6 @@ cryEOSUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryEOSUSD
-  is_synthetic: 0
 cryEOSUSDmf:
   asset: EOS
   display_name: EOS/USD
@@ -2280,7 +2144,6 @@ cryEOSUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryEOSUSDmf
-  is_synthetic: 0
 cryETHEUR:
   asset: ETH
   display_name: ETH/EUR
@@ -2291,7 +2154,6 @@ cryETHEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryETHEUR
-  is_synthetic: 0
 cryETHUSD:
   asset: ETH
   display_name: ETH/USD
@@ -2302,7 +2164,6 @@ cryETHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryETHUSD
-  is_synthetic: 0
 cryETHUSDmf:
   asset: ETH
   display_name: ETH/USD
@@ -2313,7 +2174,6 @@ cryETHUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryETHUSDmf
-  is_synthetic: 0
 cryEURSUSD:
   asset: EURS
   display_name: EURS/USD
@@ -2324,7 +2184,6 @@ cryEURSUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryEURSUSD
-  is_synthetic: 0
 cryIDKUSD:
   asset: IDK
   display_name: IDK/USD
@@ -2335,7 +2194,6 @@ cryIDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryIDKUSD
-  is_synthetic: 0
 cryIOTUSD:
   asset: IOT
   display_name: IOT/USD
@@ -2346,7 +2204,6 @@ cryIOTUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryIOTUSD
-  is_synthetic: 0
 cryLTCEUR:
   asset: LTC
   display_name: LTC/EUR
@@ -2357,7 +2214,6 @@ cryLTCEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryLTCEUR
-  is_synthetic: 0
 cryLTCUSD:
   asset: LTC
   display_name: LTC/USD
@@ -2368,7 +2224,6 @@ cryLTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryLTCUSD
-  is_synthetic: 0
 cryLTCUSDmf:
   asset: LTC
   display_name: LTC/USD
@@ -2379,7 +2234,6 @@ cryLTCUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryLTCUSDmf
-  is_synthetic: 0
 cryNEOUSD:
   asset: NEO
   display_name: NEO/USD
@@ -2390,7 +2244,6 @@ cryNEOUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryNEOUSD
-  is_synthetic: 0
 cryOMGUSD:
   asset: OMG
   display_name: OMG/USD
@@ -2401,7 +2254,6 @@ cryOMGUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryOMGUSD
-  is_synthetic: 0
 cryPAXUSD:
   asset: PAX
   display_name: PAX/USD
@@ -2412,7 +2264,6 @@ cryPAXUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryPAXUSD
-  is_synthetic: 0
 cryTRXUSD:
   asset: TRX
   display_name: TRX/USD
@@ -2423,7 +2274,6 @@ cryTRXUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryTRXUSD
-  is_synthetic: 0
 cryTUSDUSD:
   asset: TUSD
   display_name: TUSD/USD
@@ -2434,7 +2284,6 @@ cryTUSDUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryTUSDUSD
-  is_synthetic: 0
 cryUSDCUSD:
   asset: USDC
   display_name: USDC/USD
@@ -2445,7 +2294,6 @@ cryUSDCUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSDCUSD
-  is_synthetic: 0
 cryUSDKUSD:
   asset: USDK
   display_name: USDK/USD
@@ -2456,7 +2304,6 @@ cryUSDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSDKUSD
-  is_synthetic: 0
 cryUSTUSD:
   asset: UST
   display_name: UST/USD
@@ -2467,7 +2314,6 @@ cryUSTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSTUSD
-  is_synthetic: 0
 cryXLMUSD:
   asset: XLM
   display_name: XLM/USD
@@ -2478,7 +2324,6 @@ cryXLMUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXLMUSD
-  is_synthetic: 0
 cryXMLUSD:
   asset: XML
   display_name: XML/USD
@@ -2489,7 +2334,6 @@ cryXMLUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXMLUSD
-  is_synthetic: 0
 cryXMRUSD:
   asset: XMR
   display_name: XMR/USD
@@ -2500,7 +2344,6 @@ cryXMRUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXMRUSD
-  is_synthetic: 0
 cryXRPEUR:
   asset: XRP
   display_name: XRP/EUR
@@ -2511,7 +2354,6 @@ cryXRPEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryXRPEUR
-  is_synthetic: 0
 cryXRPUSD:
   asset: XRP
   display_name: XRP/USD
@@ -2522,7 +2364,6 @@ cryXRPUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXRPUSD
-  is_synthetic: 0
 cryXRPUSDmf:
   asset: XRP
   display_name: XRP/USD
@@ -2533,7 +2374,6 @@ cryXRPUSDmf:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXRPUSDmf
-  is_synthetic: 0
 cryZECUSD:
   asset: ZEC
   display_name: ZEC/USD
@@ -2544,7 +2384,6 @@ cryZECUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryZECUSD
-  is_synthetic: 0
 cryeUSDTUSD:
   asset: eUSDT
   display_name: eUSDT/USD
@@ -2555,7 +2394,6 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
-  is_synthetic: 0
 frxAUDAED:
   asset: AUD
   display_name: AUD/AED
@@ -2572,7 +2410,6 @@ frxAUDAED:
   quoted_currency: AED
   submarket: minor_pairs
   symbol: frxAUDAED
-  is_synthetic: 0
 frxAUDCAD:
   asset: AUD
   display_name: AUD/CAD
@@ -2589,7 +2426,6 @@ frxAUDCAD:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxAUDCAD
-  is_synthetic: 0
 frxAUDCADmicro:
   asset: AUD
   display_name: AUD/CAD
@@ -2606,7 +2442,6 @@ frxAUDCADmicro:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxAUDCADmicro
-  is_synthetic: 0
 frxAUDCHF:
   asset: AUD
   display_name: AUD/CHF
@@ -2623,7 +2458,6 @@ frxAUDCHF:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxAUDCHF
-  is_synthetic: 0
 frxAUDCHFmicro:
   asset: AUD
   display_name: AUD/CHF
@@ -2640,7 +2474,6 @@ frxAUDCHFmicro:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxAUDCHFmicro
-  is_synthetic: 0
 frxAUDHKD:
   asset: AUD
   display_name: AUD/HKD
@@ -2657,7 +2490,6 @@ frxAUDHKD:
   quoted_currency: HKD
   submarket: minor_pairs
   symbol: frxAUDHKD
-  is_synthetic: 0
 frxAUDIDR:
   asset: AUD
   display_name: AUD/IDR
@@ -2674,7 +2506,6 @@ frxAUDIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxAUDIDR
-  is_synthetic: 0
 frxAUDINR:
   asset: AUD
   display_name: AUD/INR
@@ -2691,7 +2522,6 @@ frxAUDINR:
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxAUDINR
-  is_synthetic: 0
 frxAUDJPY:
   asset: AUD
   display_name: AUD/JPY
@@ -2708,7 +2538,6 @@ frxAUDJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxAUDJPY
-  is_synthetic: 0
 frxAUDJPYmicro:
   asset: AUD
   display_name: AUD/JPY
@@ -2725,7 +2554,6 @@ frxAUDJPYmicro:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxAUDJPYmicro
-  is_synthetic: 0
 frxAUDMXN:
   asset: AUD
   display_name: AUD/MXN
@@ -2742,7 +2570,6 @@ frxAUDMXN:
   quoted_currency: MXN
   submarket: minor_pairs
   symbol: frxAUDMXN
-  is_synthetic: 0
 frxAUDNOK:
   asset: AUD
   display_name: AUD/NOK
@@ -2759,7 +2586,6 @@ frxAUDNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxAUDNOK
-  is_synthetic: 0
 frxAUDNZD:
   asset: AUD
   display_name: AUD/NZD
@@ -2776,7 +2602,6 @@ frxAUDNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxAUDNZD
-  is_synthetic: 0
 frxAUDNZDmicro:
   asset: AUD
   display_name: AUD/NZD
@@ -2793,7 +2618,6 @@ frxAUDNZDmicro:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxAUDNZDmicro
-  is_synthetic: 0
 frxAUDPLN:
   asset: AUD
   display_name: AUD/PLN
@@ -2810,7 +2634,6 @@ frxAUDPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxAUDPLN
-  is_synthetic: 0
 frxAUDSEK:
   asset: AUD
   display_name: AUD/SEK
@@ -2827,7 +2650,6 @@ frxAUDSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxAUDSEK
-  is_synthetic: 0
 frxAUDSGD:
   asset: AUD
   display_name: AUD/SGD
@@ -2844,7 +2666,6 @@ frxAUDSGD:
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxAUDSGD
-  is_synthetic: 0
 frxAUDTRY:
   asset: AUD
   display_name: AUD/TRY
@@ -2861,7 +2682,6 @@ frxAUDTRY:
   quoted_currency: TRY
   submarket: minor_pairs
   symbol: frxAUDTRY
-  is_synthetic: 0
 frxAUDUSD:
   asset: AUD
   display_name: AUD/USD
@@ -2878,7 +2698,6 @@ frxAUDUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxAUDUSD
-  is_synthetic: 0
 frxAUDUSDmicro:
   asset: AUD
   display_name: AUD/USD
@@ -2895,7 +2714,6 @@ frxAUDUSDmicro:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxAUDUSDmicro
-  is_synthetic: 0
 frxAUDZAR:
   asset: AUD
   display_name: AUDZAR
@@ -2912,7 +2730,6 @@ frxAUDZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxAUDZAR
-  is_synthetic: 0
 frxBROAUD:
   asset: BRO
   display_name: Oil/AUD
@@ -2929,7 +2746,6 @@ frxBROAUD:
   quoted_currency: AUD
   submarket: energy
   symbol: frxBROAUD
-  is_synthetic: 0
 frxBROEUR:
   asset: BRO
   display_name: Oil/EUR
@@ -2946,7 +2762,6 @@ frxBROEUR:
   quoted_currency: EUR
   submarket: energy
   symbol: frxBROEUR
-  is_synthetic: 0
 frxBROGBP:
   asset: BRO
   display_name: Oil/GBP
@@ -2963,7 +2778,6 @@ frxBROGBP:
   quoted_currency: GBP
   submarket: energy
   symbol: frxBROGBP
-  is_synthetic: 0
 frxBROUSD:
   asset: BRO
   display_name: Oil/USD
@@ -2980,7 +2794,6 @@ frxBROUSD:
   quoted_currency: USD
   submarket: energy
   symbol: frxBROUSD
-  is_synthetic: 0
 frxCADCHF:
   asset: CAD
   display_name: CAD/CHF
@@ -2997,7 +2810,6 @@ frxCADCHF:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxCADCHF
-  is_synthetic: 0
 frxCADJPY:
   asset: CAD
   display_name: CAD/JPY
@@ -3014,7 +2826,6 @@ frxCADJPY:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxCADJPY
-  is_synthetic: 0
 frxCHFJPY:
   asset: CHF
   display_name: CHF/JPY
@@ -3031,7 +2842,6 @@ frxCHFJPY:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxCHFJPY
-  is_synthetic: 0
 frxEURAED:
   asset: EUR
   display_name: EUR/AED
@@ -3048,7 +2858,6 @@ frxEURAED:
   quoted_currency: AED
   submarket: minor_pairs
   symbol: frxEURAED
-  is_synthetic: 0
 frxEURAUD:
   asset: EUR
   display_name: EUR/AUD
@@ -3065,7 +2874,6 @@ frxEURAUD:
   quoted_currency: AUD
   submarket: major_pairs
   symbol: frxEURAUD
-  is_synthetic: 0
 frxEURAUDmicro:
   asset: EUR
   display_name: EUR/AUD
@@ -3082,7 +2890,6 @@ frxEURAUDmicro:
   quoted_currency: AUD
   submarket: minor_pairs
   symbol: frxEURAUDmicro
-  is_synthetic: 0
 frxEURCAD:
   asset: EUR
   display_name: EUR/CAD
@@ -3099,7 +2906,6 @@ frxEURCAD:
   quoted_currency: CAD
   submarket: major_pairs
   symbol: frxEURCAD
-  is_synthetic: 0
 frxEURCADmicro:
   asset: EUR
   display_name: EUR/CAD
@@ -3116,7 +2922,6 @@ frxEURCADmicro:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxEURCADmicro
-  is_synthetic: 0
 frxEURCHF:
   asset: EUR
   display_name: EUR/CHF
@@ -3133,7 +2938,6 @@ frxEURCHF:
   quoted_currency: CHF
   submarket: major_pairs
   symbol: frxEURCHF
-  is_synthetic: 0
 frxEURCHFmicro:
   asset: EUR
   display_name: EUR/CHF
@@ -3150,7 +2954,6 @@ frxEURCHFmicro:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxEURCHFmicro
-  is_synthetic: 0
 frxEURGBP:
   asset: EUR
   display_name: EUR/GBP
@@ -3167,7 +2970,6 @@ frxEURGBP:
   quoted_currency: GBP
   submarket: major_pairs
   symbol: frxEURGBP
-  is_synthetic: 0
 frxEURGBPmicro:
   asset: EUR
   display_name: EUR/GBP
@@ -3184,7 +2986,6 @@ frxEURGBPmicro:
   quoted_currency: GBP
   submarket: minor_pairs
   symbol: frxEURGBPmicro
-  is_synthetic: 0
 frxEURHKD:
   asset: EUR
   display_name: EUR/HKD
@@ -3201,7 +3002,6 @@ frxEURHKD:
   quoted_currency: HKD
   submarket: minor_pairs
   symbol: frxEURHKD
-  is_synthetic: 0
 frxEURIDR:
   asset: EUR
   display_name: EUR/IDR
@@ -3218,7 +3018,6 @@ frxEURIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxEURIDR
-  is_synthetic: 0
 frxEURILS:
   asset: EUR
   display_name: EUR/ILS
@@ -3235,7 +3034,6 @@ frxEURILS:
   quoted_currency: ILS
   submarket: minor_pairs
   symbol: frxEURILS
-  is_synthetic: 0
 frxEURINR:
   asset: EUR
   display_name: EUR/INR
@@ -3252,7 +3050,6 @@ frxEURINR:
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxEURINR
-  is_synthetic: 0
 frxEURJPY:
   asset: EUR
   display_name: EUR/JPY
@@ -3269,7 +3066,6 @@ frxEURJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxEURJPY
-  is_synthetic: 0
 frxEURJPYmicro:
   asset: EUR
   display_name: EUR/JPY
@@ -3286,7 +3082,6 @@ frxEURJPYmicro:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxEURJPYmicro
-  is_synthetic: 0
 frxEURMXN:
   asset: EUR
   display_name: EUR/MXN
@@ -3303,7 +3098,6 @@ frxEURMXN:
   quoted_currency: MXN
   submarket: minor_pairs
   symbol: frxEURMXN
-  is_synthetic: 0
 frxEURNOK:
   asset: EUR
   display_name: EUR/NOK
@@ -3320,7 +3114,6 @@ frxEURNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxEURNOK
-  is_synthetic: 0
 frxEURNZD:
   asset: EUR
   display_name: EUR/NZD
@@ -3337,7 +3130,6 @@ frxEURNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxEURNZD
-  is_synthetic: 0
 frxEURNZDmicro:
   asset: EUR
   display_name: EUR/NZD
@@ -3354,7 +3146,6 @@ frxEURNZDmicro:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxEURNZDmicro
-  is_synthetic: 0
 frxEURPLN:
   asset: EUR
   display_name: EUR/PLN
@@ -3371,7 +3162,6 @@ frxEURPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxEURPLN
-  is_synthetic: 0
 frxEURSEK:
   asset: EUR
   display_name: EUR/SEK
@@ -3388,7 +3178,6 @@ frxEURSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxEURSEK
-  is_synthetic: 0
 frxEURSGD:
   asset: EUR
   display_name: EUR/SGD
@@ -3405,7 +3194,6 @@ frxEURSGD:
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxEURSGD
-  is_synthetic: 0
 frxEURTRY:
   asset: EUR
   display_name: EUR/TRY
@@ -3422,7 +3210,6 @@ frxEURTRY:
   quoted_currency: TRY
   submarket: minor_pairs
   symbol: frxEURTRY
-  is_synthetic: 0
 frxEURUSD:
   asset: EUR
   display_name: EUR/USD
@@ -3439,7 +3226,6 @@ frxEURUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxEURUSD
-  is_synthetic: 0
 frxEURUSDmicro:
   asset: EUR
   display_name: EUR/USD
@@ -3456,7 +3242,6 @@ frxEURUSDmicro:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxEURUSDmicro
-  is_synthetic: 0
 frxEURZAR:
   asset: EUR
   display_name: EUR/ZAR
@@ -3473,7 +3258,6 @@ frxEURZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxEURZAR
-  is_synthetic: 0
 frxGBPAED:
   asset: GBP
   display_name: GBP/AED
@@ -3490,7 +3274,6 @@ frxGBPAED:
   quoted_currency: AED
   submarket: minor_pairs
   symbol: frxGBPAED
-  is_synthetic: 0
 frxGBPAUD:
   asset: GBP
   display_name: GBP/AUD
@@ -3507,7 +3290,6 @@ frxGBPAUD:
   quoted_currency: AUD
   submarket: major_pairs
   symbol: frxGBPAUD
-  is_synthetic: 0
 frxGBPCAD:
   asset: GBP
   display_name: GBP/CAD
@@ -3524,7 +3306,6 @@ frxGBPCAD:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxGBPCAD
-  is_synthetic: 0
 frxGBPCHF:
   asset: GBP
   display_name: GBP/CHF
@@ -3541,7 +3322,6 @@ frxGBPCHF:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxGBPCHF
-  is_synthetic: 0
 frxGBPCHFmicro:
   asset: GBP
   display_name: GBP/CHF
@@ -3558,7 +3338,6 @@ frxGBPCHFmicro:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxGBPCHFmicro
-  is_synthetic: 0
 frxGBPHKD:
   asset: GBP
   display_name: GBP/HKD
@@ -3575,7 +3354,6 @@ frxGBPHKD:
   quoted_currency: HKD
   submarket: minor_pairs
   symbol: frxGBPHKD
-  is_synthetic: 0
 frxGBPIDR:
   asset: GBP
   display_name: GBP/IDR
@@ -3592,7 +3370,6 @@ frxGBPIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxGBPIDR
-  is_synthetic: 0
 frxGBPINR:
   asset: GBP
   display_name: GBP/INR
@@ -3609,7 +3386,6 @@ frxGBPINR:
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxGBPINR
-  is_synthetic: 0
 frxGBPJPY:
   asset: GBP
   display_name: GBP/JPY
@@ -3626,7 +3402,6 @@ frxGBPJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxGBPJPY
-  is_synthetic: 0
 frxGBPJPYmicro:
   asset: GBP
   display_name: GBP/JPY
@@ -3643,7 +3418,6 @@ frxGBPJPYmicro:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxGBPJPYmicro
-  is_synthetic: 0
 frxGBPMXN:
   asset: GBP
   display_name: GBP/MXN
@@ -3660,7 +3434,6 @@ frxGBPMXN:
   quoted_currency: MXN
   submarket: minor_pairs
   symbol: frxGBPMXN
-  is_synthetic: 0
 frxGBPNOK:
   asset: GBP
   display_name: GBP/NOK
@@ -3677,7 +3450,6 @@ frxGBPNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxGBPNOK
-  is_synthetic: 0
 frxGBPNZD:
   asset: GBP
   display_name: GBP/NZD
@@ -3694,7 +3466,6 @@ frxGBPNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxGBPNZD
-  is_synthetic: 0
 frxGBPPLN:
   asset: GBP
   display_name: GBP/PLN
@@ -3711,7 +3482,6 @@ frxGBPPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxGBPPLN
-  is_synthetic: 0
 frxGBPSEK:
   asset: GBP
   display_name: GBP/SEK
@@ -3728,7 +3498,6 @@ frxGBPSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxGBPSEK
-  is_synthetic: 0
 frxGBPSGD:
   asset: GBP
   display_name: GBP/SGD
@@ -3745,7 +3514,6 @@ frxGBPSGD:
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxGBPSGD
-  is_synthetic: 0
 frxGBPTRY:
   asset: GBP
   display_name: GBP/TRY
@@ -3762,7 +3530,6 @@ frxGBPTRY:
   quoted_currency: TRY
   submarket: minor_pairs
   symbol: frxGBPTRY
-  is_synthetic: 0
 frxGBPUSD:
   asset: GBP
   display_name: GBP/USD
@@ -3779,7 +3546,6 @@ frxGBPUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxGBPUSD
-  is_synthetic: 0
 frxGBPUSDmicro:
   asset: GBP
   display_name: GBP/USD
@@ -3796,7 +3562,6 @@ frxGBPUSDmicro:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxGBPUSDmicro
-  is_synthetic: 0
 frxGBPZAR:
   asset: GBP
   display_name: GBP/ZAR
@@ -3813,7 +3578,6 @@ frxGBPZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxGBPZAR
-  is_synthetic: 0
 frxHKDJPY:
   asset: HKD
   display_name: HKD/JPY
@@ -3830,7 +3594,6 @@ frxHKDJPY:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxHKDJPY
-  is_synthetic: 0
 frxNZDCAD:
   asset: NZD
   display_name: NZD/CAD
@@ -3847,7 +3610,6 @@ frxNZDCAD:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxNZDCAD
-  is_synthetic: 0
 frxNZDCHF:
   asset: NZD
   display_name: NZDCHF
@@ -3864,7 +3626,6 @@ frxNZDCHF:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxNZDCHF
-  is_synthetic: 0
 frxNZDJPY:
   asset: NZD
   display_name: NZD/JPY
@@ -3881,7 +3642,6 @@ frxNZDJPY:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxNZDJPY
-  is_synthetic: 0
 frxNZDSGD:
   asset: NZD
   display_name: NZD/SGD
@@ -3898,7 +3658,6 @@ frxNZDSGD:
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxNZDSGD
-  is_synthetic: 0
 frxNZDUSD:
   asset: NZD
   display_name: NZD/USD
@@ -3915,7 +3674,6 @@ frxNZDUSD:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxNZDUSD
-  is_synthetic: 0
 frxNZDUSDmicro:
   asset: NZD
   display_name: NZD/USD
@@ -3932,7 +3690,6 @@ frxNZDUSDmicro:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxNZDUSDmicro
-  is_synthetic: 0
 frxSGDJPY:
   asset: SGD
   display_name: SGD/JPY
@@ -3949,7 +3706,6 @@ frxSGDJPY:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxSGDJPY
-  is_synthetic: 0
 frxUSDAED:
   asset: USD
   display_name: USD/AED
@@ -3966,7 +3722,6 @@ frxUSDAED:
   quoted_currency: AED
   submarket: minor_pairs
   symbol: frxUSDAED
-  is_synthetic: 0
 frxUSDCAD:
   asset: USD
   display_name: USD/CAD
@@ -3983,7 +3738,6 @@ frxUSDCAD:
   quoted_currency: CAD
   submarket: major_pairs
   symbol: frxUSDCAD
-  is_synthetic: 0
 frxUSDCADmicro:
   asset: USD
   display_name: USD/CAD
@@ -4000,7 +3754,6 @@ frxUSDCADmicro:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxUSDCADmicro
-  is_synthetic: 0
 frxUSDCHF:
   asset: USD
   display_name: USD/CHF
@@ -4017,7 +3770,6 @@ frxUSDCHF:
   quoted_currency: CHF
   submarket: major_pairs
   symbol: frxUSDCHF
-  is_synthetic: 0
 frxUSDCHFmicro:
   asset: USD
   display_name: USD/CHF
@@ -4034,7 +3786,6 @@ frxUSDCHFmicro:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxUSDCHFmicro
-  is_synthetic: 0
 frxUSDCNH:
   asset: USD
   display_name: USD/CNH
@@ -4051,7 +3802,6 @@ frxUSDCNH:
   quoted_currency: CNH
   submarket: minor_pairs
   symbol: frxUSDCNH
-  is_synthetic: 0
 frxUSDHKD:
   asset: USD
   display_name: USD/HKD
@@ -4068,7 +3818,6 @@ frxUSDHKD:
   quoted_currency: HKD
   submarket: minor_pairs
   symbol: frxUSDHKD
-  is_synthetic: 0
 frxUSDIDR:
   asset: USD
   display_name: USD/IDR
@@ -4085,7 +3834,6 @@ frxUSDIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxUSDIDR
-  is_synthetic: 0
 frxUSDILS:
   asset: USD
   display_name: USD/ILS
@@ -4102,7 +3850,6 @@ frxUSDILS:
   quoted_currency: ILS
   submarket: minor_pairs
   symbol: frxUSDILS
-  is_synthetic: 0
 frxUSDINR:
   asset: USD
   display_name: USD/INR
@@ -4119,7 +3866,6 @@ frxUSDINR:
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxUSDINR
-  is_synthetic: 0
 frxUSDJPY:
   asset: USD
   display_name: USD/JPY
@@ -4136,7 +3882,6 @@ frxUSDJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxUSDJPY
-  is_synthetic: 0
 frxUSDJPYmicro:
   asset: USD
   display_name: USD/JPY
@@ -4153,7 +3898,6 @@ frxUSDJPYmicro:
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxUSDJPYmicro
-  is_synthetic: 0
 frxUSDMXN:
   asset: USD
   display_name: USD/MXN
@@ -4170,7 +3914,6 @@ frxUSDMXN:
   quoted_currency: MXN
   submarket: minor_pairs
   symbol: frxUSDMXN
-  is_synthetic: 0
 frxUSDNOK:
   asset: USD
   display_name: USD/NOK
@@ -4187,7 +3930,6 @@ frxUSDNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxUSDNOK
-  is_synthetic: 0
 frxUSDPLN:
   asset: USD
   display_name: USD/PLN
@@ -4204,7 +3946,6 @@ frxUSDPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxUSDPLN
-  is_synthetic: 0
 frxUSDRUB:
   asset: USD
   display_name: USD/RUB
@@ -4221,7 +3962,6 @@ frxUSDRUB:
   quoted_currency: RUB
   submarket: minor_pairs
   symbol: frxUSDRUB
-  is_synthetic: 0
 frxUSDSEK:
   asset: USD
   display_name: USD/SEK
@@ -4238,7 +3978,6 @@ frxUSDSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxUSDSEK
-  is_synthetic: 0
 frxUSDSGD:
   asset: USD
   display_name: USD/SGD
@@ -4255,7 +3994,6 @@ frxUSDSGD:
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxUSDSGD
-  is_synthetic: 0
 frxUSDTHB:
   asset: USD
   display_name: USD/THB
@@ -4272,7 +4010,6 @@ frxUSDTHB:
   quoted_currency: THB
   submarket: minor_pairs
   symbol: frxUSDTHB
-  is_synthetic: 0
 frxUSDTRY:
   asset: USD
   display_name: USD/TRY
@@ -4289,7 +4026,6 @@ frxUSDTRY:
   quoted_currency: TRY
   submarket: minor_pairs
   symbol: frxUSDTRY
-  is_synthetic: 0
 frxUSDZAR:
   asset: USD
   display_name: USDZAR
@@ -4306,7 +4042,6 @@ frxUSDZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxUSDZAR
-  is_synthetic: 0
 frxXAGAUD:
   asset: XAG
   display_name: XAG/AUD
@@ -4323,7 +4058,6 @@ frxXAGAUD:
   quoted_currency: AUD
   submarket: metals
   symbol: frxXAGAUD
-  is_synthetic: 0
 frxXAGEUR:
   asset: XAG
   display_name: XAG/EUR
@@ -4340,7 +4074,6 @@ frxXAGEUR:
   quoted_currency: EUR
   submarket: metals
   symbol: frxXAGEUR
-  is_synthetic: 0
 frxXAGGBP:
   asset: XAG
   display_name: XAG/GBP
@@ -4357,7 +4090,6 @@ frxXAGGBP:
   quoted_currency: GBP
   submarket: metals
   symbol: frxXAGGBP
-  is_synthetic: 0
 frxXAGUSD:
   asset: XAG
   display_name: Silver/USD
@@ -4374,7 +4106,6 @@ frxXAGUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXAGUSD
-  is_synthetic: 0
 frxXAUAUD:
   asset: XAU
   display_name: Gold/AUD
@@ -4391,7 +4122,6 @@ frxXAUAUD:
   quoted_currency: AUD
   submarket: metals
   symbol: frxXAUAUD
-  is_synthetic: 0
 frxXAUEUR:
   asset: XAU
   display_name: Gold/EUR
@@ -4408,7 +4138,6 @@ frxXAUEUR:
   quoted_currency: EUR
   submarket: metals
   symbol: frxXAUEUR
-  is_synthetic: 0
 frxXAUGBP:
   asset: XAU
   display_name: Gold/GBP
@@ -4425,7 +4154,6 @@ frxXAUGBP:
   quoted_currency: GBP
   submarket: metals
   symbol: frxXAUGBP
-  is_synthetic: 0
 frxXAUUSD:
   asset: XAU
   display_name: Gold/USD
@@ -4442,7 +4170,6 @@ frxXAUUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXAUUSD
-  is_synthetic: 0
 frxXPDAUD:
   asset: XPD
   display_name: XPD/AUD
@@ -4459,7 +4186,6 @@ frxXPDAUD:
   quoted_currency: AUD
   submarket: metals
   symbol: frxXPDAUD
-  is_synthetic: 0
 frxXPDEUR:
   asset: XPD
   display_name: XPD/EUR
@@ -4476,7 +4202,6 @@ frxXPDEUR:
   quoted_currency: EUR
   submarket: metals
   symbol: frxXPDEUR
-  is_synthetic: 0
 frxXPDGBP:
   asset: XPD
   display_name: XPD/GBP
@@ -4493,7 +4218,6 @@ frxXPDGBP:
   quoted_currency: GBP
   submarket: metals
   symbol: frxXPDGBP
-  is_synthetic: 0
 frxXPDUSD:
   asset: XPD
   display_name: Palladium/USD
@@ -4510,7 +4234,6 @@ frxXPDUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPDUSD
-  is_synthetic: 0
 frxXPTAUD:
   asset: XPT
   display_name: XPT/AUD
@@ -4527,7 +4250,6 @@ frxXPTAUD:
   quoted_currency: AUD
   submarket: metals
   symbol: frxXPTAUD
-  is_synthetic: 0
 frxXPTEUR:
   asset: XPT
   display_name: XPT/EUR
@@ -4544,7 +4266,6 @@ frxXPTEUR:
   quoted_currency: EUR
   submarket: metals
   symbol: frxXPTEUR
-  is_synthetic: 0
 frxXPTGBP:
   asset: XPD
   display_name: XPT/GBP
@@ -4561,7 +4282,6 @@ frxXPTGBP:
   quoted_currency: GBP
   submarket: metals
   symbol: frxXPTGBP
-  is_synthetic: 0
 frxXPTUSD:
   asset: XPT
   display_name: Platinum/USD
@@ -4578,7 +4298,6 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-  is_synthetic: 0
 cryBCHUSD:
   asset: BCH
   display_name: BCH/USD
@@ -4589,7 +4308,6 @@ cryBCHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBCHUSD
-  is_synthetic: 0
 cryBNBUSD:
   asset: BNB
   display_name: BNB/USD
@@ -4600,7 +4318,6 @@ cryBNBUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBNBUSD
-  is_synthetic: 0
 cryBTCAUD:
   asset: BTC
   display_name: BTC/AUD
@@ -4611,7 +4328,6 @@ cryBTCAUD:
   quoted_currency: AUD
   submarket: non_stable_coin
   symbol: cryBTCAUD
-  is_synthetic: 0
 cryBTCBCH:
   asset: BTC
   display_name: BTC/BCH
@@ -4622,7 +4338,6 @@ cryBTCBCH:
   quoted_currency: BCH
   submarket: non_stable_coin
   symbol: cryBTCBCH
-  is_synthetic: 0
 cryBTCCHF:
   asset: BTC
   display_name: BTC/CHF
@@ -4633,7 +4348,6 @@ cryBTCCHF:
   quoted_currency: CHF
   submarket: non_stable_coin
   symbol: cryBTCCHF
-  is_synthetic: 0
 cryBTCETH:
   asset: BTC
   display_name: BTC/ETH
@@ -4644,7 +4358,6 @@ cryBTCETH:
   quoted_currency: ETH
   submarket: non_stable_coin
   symbol: cryBTCETH
-  is_synthetic: 0
 cryBTCEUR:
   asset: BTC
   display_name: BTC/EUR
@@ -4655,7 +4368,6 @@ cryBTCEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryBTCEUR
-  is_synthetic: 0
 cryBTCGBP:
   asset: BTC
   display_name: BTC/GBP
@@ -4666,7 +4378,6 @@ cryBTCGBP:
   quoted_currency: GBP
   submarket: non_stable_coin
   symbol: cryBTCGBP
-  is_synthetic: 0
 cryBTCJPY:
   asset: BTC
   display_name: BTC/JPY
@@ -4677,7 +4388,6 @@ cryBTCJPY:
   quoted_currency: JPY
   submarket: non_stable_coin
   symbol: cryBTCJPY
-  is_synthetic: 0
 cryBTCLTC:
   asset: BTC
   display_name: BTC/LTC
@@ -4688,7 +4398,6 @@ cryBTCLTC:
   quoted_currency: LTC
   submarket: non_stable_coin
   symbol: cryBTCLTC
-  is_synthetic: 0
 cryBTCNZD:
   asset: BTC
   display_name: BTC/NZD
@@ -4699,7 +4408,6 @@ cryBTCNZD:
   quoted_currency: NZD
   submarket: non_stable_coin
   symbol: cryBTCNZD
-  is_synthetic: 0
 cryBTCRUB:
   asset: BTC
   display_name: BTC/RUB
@@ -4710,7 +4418,6 @@ cryBTCRUB:
   quoted_currency: RUB
   submarket: non_stable_coin
   symbol: cryBTCRUB
-  is_synthetic: 0
 cryBTCUSD:
   asset: BTC
   display_name: BTC/USD
@@ -4721,7 +4428,6 @@ cryBTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBTCUSD
-  is_synthetic: 0
 cryBTCXAG:
   asset: BTC
   display_name: BTC/XAG
@@ -4732,7 +4438,6 @@ cryBTCXAG:
   quoted_currency: XAG
   submarket: non_stable_coin
   symbol: cryBTCXAG
-  is_synthetic: 0
 cryBTCXAU:
   asset: BTC
   display_name: BTC/XAU
@@ -4743,7 +4448,6 @@ cryBTCXAU:
   quoted_currency: XAU
   submarket: non_stable_coin
   symbol: cryBTCXAU
-  is_synthetic: 0
 cryBTCXRP:
   asset: BTC
   display_name: BTC/XRP
@@ -4754,7 +4458,6 @@ cryBTCXRP:
   quoted_currency: XRP
   submarket: non_stable_coin
   symbol: cryBTCXRP
-  is_synthetic: 0
 cryDSHUSD:
   asset: DSH
   display_name: DSH/USD
@@ -4765,7 +4468,6 @@ cryDSHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryDSHUSD
-  is_synthetic: 0
 cryETHEUR:
   asset: ETH
   display_name: ETH/EUR
@@ -4776,7 +4478,6 @@ cryETHEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryETHEUR
-  is_synthetic: 0
 cryETHUSD:
   asset: ETH
   display_name: ETH/USD
@@ -4787,7 +4488,6 @@ cryETHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryETHUSD
-  is_synthetic: 0
 cryIOTUSD:
   asset: IOT
   display_name: IOT/USD
@@ -4798,7 +4498,6 @@ cryIOTUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryIOTUSD
-  is_synthetic: 0
 cryLTCEUR:
   asset: LTC
   display_name: LTC/EUR
@@ -4809,7 +4508,6 @@ cryLTCEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryLTCEUR
-  is_synthetic: 0
 cryLTCUSD:
   asset: LTC
   display_name: LTC/USD
@@ -4820,7 +4518,6 @@ cryLTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryLTCUSD
-  is_synthetic: 0
 cryNEOUSD:
   asset: NEO
   display_name: NEO/USD
@@ -4831,7 +4528,6 @@ cryNEOUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryNEOUSD
-  is_synthetic: 0
 cryOMGUSD:
   asset: OMG
   display_name: OMG/USD
@@ -4842,7 +4538,6 @@ cryOMGUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryOMGUSD
-  is_synthetic: 0
 cryTRXUSD:
   asset: TRX
   display_name: TRX/USD
@@ -4853,7 +4548,6 @@ cryTRXUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryTRXUSD
-  is_synthetic: 0
 cryXMLUSD:
   asset: XML
   display_name: XML/USD
@@ -4864,7 +4558,6 @@ cryXMLUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXMLUSD
-  is_synthetic: 0
 cryXMRUSD:
   asset: XMR
   display_name: XMR/USD
@@ -4875,7 +4568,6 @@ cryXMRUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXMRUSD
-  is_synthetic: 0
 cryXRPEUR:
   asset: XRP
   display_name: XRP/EUR
@@ -4886,7 +4578,6 @@ cryXRPEUR:
   quoted_currency: EUR
   submarket: non_stable_coin
   symbol: cryXRPEUR
-  is_synthetic: 0
 cryXRPUSD:
   asset: XRP
   display_name: XRP/USD
@@ -4897,7 +4588,6 @@ cryXRPUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryXRPUSD
-  is_synthetic: 0
 cryEOSUSD:
   asset: EOS
   display_name: EOS/USD
@@ -4908,7 +4598,6 @@ cryEOSUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryEOSUSD
-  is_synthetic: 0
 cryZECUSD:
   asset: ZEC
   display_name: ZEC/USD
@@ -4919,7 +4608,6 @@ cryZECUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryZECUSD
-  is_synthetic: 0
 cryBTCCAD:
   asset: BTC
   display_name: BTC/CAD
@@ -4930,7 +4618,6 @@ cryBTCCAD:
   quoted_currency: CAD
   submarket: non_stable_coin
   symbol: cryBTCCAD
-  is_synthetic: 0
 cryBUSDUSD:
   asset: BUSD
   display_name: BUSD/USD
@@ -4941,7 +4628,6 @@ cryBUSDUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryBUSDUSD
-  is_synthetic: 0
 cryDAIUSD:
   asset: DAI
   display_name: DAI/USD
@@ -4952,7 +4638,6 @@ cryDAIUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryDAIUSD
-  is_synthetic: 0
 cryEURSUSD:
   asset: EURS
   display_name: EURS/USD
@@ -4963,7 +4648,6 @@ cryEURSUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryEURSUSD
-  is_synthetic: 0
 cryIDKUSD:
   asset: IDK
   display_name: IDK/USD
@@ -4974,7 +4658,6 @@ cryIDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryIDKUSD
-  is_synthetic: 0
 cryPAXUSD:
   asset: PAX
   display_name: PAX/USD
@@ -4985,7 +4668,6 @@ cryPAXUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryPAXUSD
-  is_synthetic: 0
 cryTUSDUSD:
   asset: TUSD
   display_name: TUSD/USD
@@ -4996,7 +4678,6 @@ cryTUSDUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryTUSDUSD
-  is_synthetic: 0
 cryUSDCUSD:
   asset: USDC
   display_name: USDC/USD
@@ -5007,7 +4688,6 @@ cryUSDCUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSDCUSD
-  is_synthetic: 0
 cryUSDKUSD:
   asset: USDK
   display_name: USDK/USD
@@ -5018,7 +4698,6 @@ cryUSDKUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSDKUSD
-  is_synthetic: 0
 cryUSTUSD:
   asset: UST
   display_name: UST/USD
@@ -5029,7 +4708,6 @@ cryUSTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSTUSD
-  is_synthetic: 0
 cryeUSDTUSD:
   asset: eUSDT
   display_name: eUSDT/USD
@@ -5040,7 +4718,6 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
-  is_synthetic: 0
 stpAUDJPY:
   asset: AUD
   display_name: AUD/JPY Step Index
@@ -5095,7 +4772,6 @@ stpEURJPY:
   quoted_currency: JPY
   submarket: step_index
   symbol: stpEURJPY
-  is_synthetic: 0
 stpEURUSD:
   asset: EUR
   display_name: EUR/USD Step Index

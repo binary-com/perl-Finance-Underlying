@@ -335,7 +335,8 @@ Whether this symbol is synthetic or not
 =cut
 
 has is_synthetic => (
-    is => 'ro'
+    is => 'ro',
+    default => 0
 );
 
 {
