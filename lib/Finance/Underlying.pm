@@ -328,6 +328,16 @@ has market_type => (
     default => 'financial'
 );
 
+=head2 is_synthetic
+
+Whether this symbol is synthetic or not
+
+=cut
+
+has is_synthetic => (
+    is => 'ro'
+);
+
 {
     my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
     %underlyings = map { ; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
