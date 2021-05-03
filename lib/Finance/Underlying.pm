@@ -66,16 +66,13 @@ sub pipsized_value {
 
 =head2 all_underlyings
 
-Returns all the underlyings.
-Returns only synthetic indices if only_synthetics => 1 is given
+Returns all the underlyings as sorted list.
 
 =cut
 
 sub all_underlyings {
-    my %options = @_;
-    my @uls = keys %underlyings;
-    @uls = grep { $underlyings{$_}{is_synthetic} } @uls if $options{only_synthetics};
-    map { $underlyings{$_} } sort @uls;
+    my ($self) = @_;
+    map { $underlyings{$_} } sort keys %underlyings;
 }
 
 sub display_decimals {
