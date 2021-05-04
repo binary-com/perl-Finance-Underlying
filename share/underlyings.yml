@@ -26,6 +26,7 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ100V
+  is_generated: 1
 1HZ10V:
   asset: 1HZ10V
   display_name: Volatility 10 (1s) Index
@@ -41,6 +42,7 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ10V
+  is_generated: 1
 1HZ25V:
   asset: 1HZ25V
   display_name: Volatility 25 (1s) Index
@@ -56,6 +58,7 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ25V
+  is_generated: 1
 1HZ50V:
   asset: 1HZ50V
   display_name: Volatility 50 (1s) Index
@@ -71,6 +74,7 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ50V
+  is_generated: 1
 1HZ75V:
   asset: 1HZ75V
   display_name: Volatility 75 (1s) Index
@@ -86,6 +90,7 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ75V
+  is_generated: 1
 ADSMI:
   asset: ADSMI
   display_name: Abu Dhabi Index
@@ -175,6 +180,7 @@ BOOM1000:
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM1000
+  is_generated: 1
 BOOM500:
   asset: BOOM500
   display_name: Boom 500 Index
@@ -186,6 +192,7 @@ BOOM500:
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM500
+  is_generated: 1
 BSESENSEX30:
   asset: BSESENSEX30
   display_name: Bombay Index
@@ -226,6 +233,7 @@ CRASH1000:
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH1000
+  is_generated: 1
 CRASH500:
   asset: CRASH500
   display_name: Crash 500 Index
@@ -237,6 +245,7 @@ CRASH500:
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH500
+  is_generated: 1
 DEADS:
   asset: DEADS
   display_name: Adidas
@@ -486,6 +495,7 @@ JD10:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD10
+  is_generated: 1
 JD100:
   asset: JD100
   display_name: Volatility 100 Jump diffusion
@@ -501,6 +511,7 @@ JD100:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD100
+  is_generated: 1
 JD25:
   asset: JD25
   display_name: Volatility 25 Jump diffusion
@@ -516,6 +527,7 @@ JD25:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD25
+  is_generated: 1
 JD50:
   asset: JD50
   display_name: Volatility 50 Jump diffusion
@@ -531,6 +543,7 @@ JD50:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD50
+  is_generated: 1
 JD75:
   asset: JD75
   display_name: Volatility 75 Jump diffusion
@@ -546,6 +559,7 @@ JD75:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD75
+  is_generated: 1
 KOSPI2:
   asset: KOSPI2
   display_name: Korean Index
@@ -843,6 +857,7 @@ RB100:
   quoted_currency: ~
   submarket: range_index
   symbol: RB100
+  is_generated: 1
 RB200:
   asset: RB200
   display_name: Range Break 200 Index
@@ -854,6 +869,7 @@ RB200:
   quoted_currency: ~
   submarket: range_index
   symbol: RB200
+  is_generated: 1
 RDBEAR:
   asset: RDBEAR
   display_name: Bear Market Index
@@ -868,6 +884,7 @@ RDBEAR:
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBEAR
+  is_generated: 1
 RDBULL:
   asset: RDBULL
   display_name: Bull Market Index
@@ -882,6 +899,7 @@ RDBULL:
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBULL
+  is_generated: 1
 RTSI:
   asset: RTSI
   display_name: Russian Regular Index
@@ -909,6 +927,7 @@ R_10:
   quoted_currency: ~
   submarket: random_index
   symbol: R_10
+  is_generated: 1
 R_100:
   asset: R_100
   display_name: Volatility 100 Index
@@ -923,6 +942,7 @@ R_100:
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
+  is_generated: 1
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
@@ -937,6 +957,7 @@ R_25:
   quoted_currency: ~
   submarket: random_index
   symbol: R_25
+  is_generated: 1
 R_50:
   asset: R_50
   display_name: Volatility 50 Index
@@ -951,6 +972,7 @@ R_50:
   quoted_currency: ~
   submarket: random_index
   symbol: R_50
+  is_generated: 1
 R_75:
   asset: R_75
   display_name: Volatility 75 Index
@@ -965,6 +987,7 @@ R_75:
   quoted_currency: ~
   submarket: random_index
   symbol: R_75
+  is_generated: 1
 SASEIDX:
   asset: SASEIDX
   display_name: Saudi Arabia Index
@@ -1784,6 +1807,7 @@ WLDAUD:
   quoted_currency: WLDAUD
   submarket: smart_fx
   symbol: WLDAUD
+  is_generated: 1
 WLDEUR:
   asset: EUR
   display_name: EUR Index
@@ -1797,6 +1821,7 @@ WLDEUR:
   quoted_currency: WLDEUR
   submarket: smart_fx
   symbol: WLDEUR
+  is_generated: 1
 WLDGBP:
   asset: GBP
   display_name: GBP Index
@@ -1810,6 +1835,7 @@ WLDGBP:
   quoted_currency: WLDGBP
   submarket: smart_fx
   symbol: WLDGBP
+  is_generated: 1
 WLDGOLD:
   asset: G
   display_name: G Index
@@ -1823,6 +1849,7 @@ WLDGOLD:
   quoted_currency: WLDGOLD
   submarket: smart_fx
   symbol: WLDGOLD
+  is_generated: 1
 WLDUSD:
   asset: USD
   display_name: USD Index
@@ -1836,6 +1863,7 @@ WLDUSD:
   quoted_currency: WLDUSD
   submarket: smart_fx
   symbol: WLDUSD
+  is_generated: 1
 WLDXAU:
   asset: XAU
   display_name: Gold Index
@@ -1849,6 +1877,7 @@ WLDXAU:
   quoted_currency: WLDXAU
   submarket: smart_fx
   symbol: WLDXAU
+  is_generated: 1
 WTI_OIL:
   asset: WTI_OIL
   display_name: WTI Crude Oil
@@ -4699,6 +4728,7 @@ stpAUDJPY:
   quoted_currency: JPY
   submarket: step_index
   symbol: stpAUDJPY
+  is_generated: 1
 stpAUDUSD:
   asset: AUD
   display_name: AUD/USD Step Index
@@ -4709,6 +4739,7 @@ stpAUDUSD:
   quoted_currency: USD
   submarket: step_index
   symbol: stpAUDUSD
+  is_generated: 1
 stpEURCAD:
   asset: EUR
   display_name: EUR/CAD Step Index
@@ -4719,6 +4750,7 @@ stpEURCAD:
   quoted_currency: CAD
   submarket: step_index
   symbol: stpEURCAD
+  is_generated: 1
 stpEURGBP:
   asset: EUR
   display_name: EUR/GBP Step Index
@@ -4729,6 +4761,7 @@ stpEURGBP:
   quoted_currency: GBP
   submarket: step_index
   symbol: stpEURGBP
+  is_generated: 1
 stpEURJPY:
   asset: EUR
   display_name: EUR/JPY Step Index
@@ -4749,6 +4782,7 @@ stpEURUSD:
   quoted_currency: USD
   submarket: step_index
   symbol: stpEURUSD
+  is_generated: 1
 stpRNG:
   asset: stpRNG
   display_name: Step Index
@@ -4760,6 +4794,7 @@ stpRNG:
   quoted_currency: ~
   submarket: step_index
   symbol: stpRNG
+  is_generated: 1
 stpUSDCAD:
   asset: USD
   display_name: USD/CAD Step Index
@@ -4770,6 +4805,7 @@ stpUSDCAD:
   quoted_currency: CAD
   submarket: step_index
   symbol: stpUSDCAD
+  is_generated: 1
 stpUSDJPY:
   asset: USD
   display_name: USD/JPY Step Index
@@ -4780,3 +4816,4 @@ stpUSDJPY:
   quoted_currency: JPY
   submarket: step_index
   symbol: stpUSDJPY
+  is_generated: 1

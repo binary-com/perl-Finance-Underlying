@@ -64,7 +64,14 @@ sub pipsized_value {
     return $value;
 }
 
+=head2 all_underlyings
+
+Returns all the underlyings as sorted list.
+
+=cut
+
 sub all_underlyings {
+    my ($self) = @_;
     map { $underlyings{$_} } sort keys %underlyings;
 }
 
@@ -326,6 +333,17 @@ financial or non_financial. Defaults to financial
 has market_type => (
     is      => 'ro',
     default => 'financial'
+);
+
+=head2 is_generated
+
+Whether this symbol is generated or it's coming from other sources
+
+=cut
+
+has is_generated => (
+    is => 'ro',
+    default => 0
 );
 
 {
