@@ -335,13 +335,13 @@ has market_type => (
     default => 'financial'
 );
 
-=head2 is_synthetic
+=head2 is_generated
 
-Whether this symbol is synthetic or not
+Whether this symbol is generated or it's coming from other sources
 
 =cut
 
-has is_synthetic => (
+has is_generated => (
     is => 'ro',
     default => 0
 );
