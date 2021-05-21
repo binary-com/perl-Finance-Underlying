@@ -486,21 +486,6 @@ JD10:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD10
-JD100:
-  asset: JD100
-  display_name: Volatility 100 Jump diffusion
-  exchange_name: RANDOM
-  generation_interval: 1s
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  market_type: non_financial
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD100
 JD25:
   asset: JD25
   display_name: Volatility 25 Jump diffusion
@@ -546,6 +531,51 @@ JD75:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD75
+JD100:
+  asset: JD100
+  display_name: Volatility 100 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD100
+JD150:
+  asset: JD150
+  display_name: Volatility 150 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD150
+JD100:
+  asset: JD200
+  display_name: Volatility 200 Jump diffusion
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD200
 KOSPI2:
   asset: KOSPI2
   display_name: Korean Index
