@@ -561,7 +561,7 @@ JD150:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD150
-JD100:
+JD200:
   asset: JD200
   display_name: Volatility 200 Jump diffusion
   exchange_name: RANDOM
