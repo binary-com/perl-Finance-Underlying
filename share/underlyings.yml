@@ -473,7 +473,7 @@ JCI:
   symbol: JCI
 JD10:
   asset: JD10
-  display_name: Volatility 10 Jump diffusion
+  display_name: Jump 10 Index
   exchange_name: RANDOM
   generation_interval: 1s
   instrument_type: stockindex
@@ -486,54 +486,9 @@ JD10:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD10
-JD25:
-  asset: JD25
-  display_name: Volatility 25 Jump diffusion
-  exchange_name: RANDOM
-  generation_interval: 1s
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  market_type: non_financial
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD25
-JD50:
-  asset: JD50
-  display_name: Volatility 50 Jump diffusion
-  exchange_name: RANDOM
-  generation_interval: 1s
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  market_type: non_financial
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD50
-JD75:
-  asset: JD75
-  display_name: Volatility 75 Jump diffusion
-  exchange_name: RANDOM
-  generation_interval: 1s
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  market_type: non_financial
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: jump_index
-  symbol: JD75
 JD100:
   asset: JD100
-  display_name: Volatility 100 Jump diffusion
+  display_name: Jump 100 Index
   exchange_name: RANDOM
   generation_interval: 1s
   instrument_type: stockindex
@@ -548,7 +503,7 @@ JD100:
   symbol: JD100
 JD150:
   asset: JD150
-  display_name: Volatility 150 Jump diffusion
+  display_name: Jump 150 Index
   exchange_name: RANDOM
   generation_interval: 1s
   instrument_type: stockindex
@@ -563,7 +518,7 @@ JD150:
   symbol: JD150
 JD200:
   asset: JD200
-  display_name: Volatility 200 Jump diffusion
+  display_name: Jump 200 Index
   exchange_name: RANDOM
   generation_interval: 1s
   instrument_type: stockindex
@@ -576,6 +531,51 @@ JD200:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD200
+JD25:
+  asset: JD25
+  display_name: Jump 25 Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD25
+JD50:
+  asset: JD50
+  display_name: Jump 50 Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD50
+JD75:
+  asset: JD75
+  display_name: Jump 75 Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD75
 KOSPI2:
   asset: KOSPI2
   display_name: Korean Index
@@ -953,6 +953,34 @@ R_100:
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
+R_200:
+  asset: R_200
+  display_name: Volatility 200 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R_200
+R_300:
+  asset: R_300
+  display_name: Volatility 300 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R_300
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
