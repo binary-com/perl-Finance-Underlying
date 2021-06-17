@@ -323,6 +323,17 @@ financial or non_financial. Defaults to financial
 
 =cut
 
+=head2 is_offered
+
+Is this symbol available for trading on Deriv or Binary
+
+=cut
+
+has is_offered => (
+    is => 'ro',
+    default => 0,
+);
+
 has market_type => (
     is      => 'ro',
     default => 'financial'
