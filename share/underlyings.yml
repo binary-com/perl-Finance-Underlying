@@ -1279,6 +1279,45 @@ USAAIR:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAAIR
+USAMRNA:
+  asset: USAMRNA
+  display_name: Moderna Inc
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAMRNA
+USANKLA:
+  asset: USANKLA
+  display_name: Nikola Corporation
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USANKLA
+USAABNB:
+  asset: USABNB
+  display_name: Airbnb Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USABNB
 USAAPL:
   asset: USAAPL
   display_name: Apple
@@ -1292,6 +1331,19 @@ USAAPL:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAAPL
+USABIIB:
+  asset: USABIIB
+  display_name: Biogen Biogen Inc
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USABIIB
 USAIG:
   asset: USAIG
   display_name: American International Group Inc.
@@ -1513,6 +1565,19 @@ USFDX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USFDX
+USSPCE:
+  asset: USSPCE
+  display_name: Virgin Galactic
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USSPCE
 USGLDSCH:
   asset: USGLDSCH
   display_name: Goldman Sachs
@@ -3296,6 +3361,22 @@ frxEURZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxEURZAR
+frxGASUSD:
+  asset: GAS
+  display_name: GAS/USD
+  exchange_name: GAS_OTC
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: gas
+  symbol: frxGASUSD
 frxGBPAED:
   asset: GBP
   display_name: GBP/AED
@@ -4288,6 +4369,86 @@ frxXPTAUD:
   quoted_currency: AUD
   submarket: metals
   symbol: frxXPTAUD
+frxXZNUSD:
+  asset: XZN
+  display_name: XZN/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXZNUSD
+frxXPBUSD:
+  asset: XPB
+  display_name: XPB/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXPBUSD
+frxXNIUSD:
+  asset: XNI
+  display_name: XNI/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXNIUSD
+frxXALUSD:
+  asset: XAL
+  display_name: XAL/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXALUSD
+frxXCUUSD:
+  asset: XCU
+  display_name: XCU/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXCUUSD
 frxXPTEUR:
   asset: XPT
   display_name: XPT/EUR
