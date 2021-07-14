@@ -99,19 +99,6 @@ ADSMI:
   quoted_currency: AED
   submarket: middle_east
   symbol: ADSMI
-AEX:
-  asset: AEX
-  display_name: Dutch Index
-  exchange_name: EURONEXT
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: europe_africa
-  symbol: AEX
 AORD:
   asset: AORD
   display_name: AP Ordinary
@@ -125,19 +112,6 @@ AORD:
   quoted_currency: USD
   submarket: asia_oceania
   symbol: AORD
-AS51:
-  asset: AS51
-  display_name: Australian Index
-  exchange_name: ASX
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: AUD
-  submarket: asia_oceania
-  symbol: AS51
 BFX:
   asset: BFX
   display_name: Belgian Index
@@ -324,19 +298,6 @@ DFMGI:
   quoted_currency: AED
   submarket: middle_east
   symbol: DFMGI
-DJI:
-  asset: DJI
-  display_name: Wall Street Index
-  exchange_name: NYSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: americas
-  symbol: DJI
 EGX30:
   asset: EGX30
   display_name: Egypt Index
@@ -350,32 +311,6 @@ EGX30:
   quoted_currency: EGP
   submarket: middle_east
   symbol: EGX30
-FCHI:
-  asset: FCHI
-  display_name: French Index
-  exchange_name: EURONEXT
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: europe_africa
-  symbol: FCHI
-FTSE:
-  asset: FTSE
-  display_name: UK Index
-  exchange_name: LSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: GBP
-  submarket: europe_africa
-  symbol: FTSE
 FTSEMIB:
   asset: FTSEMIB
   display_name: Italian Index
@@ -389,19 +324,6 @@ FTSEMIB:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: FTSEMIB
-GDAXI:
-  asset: GDAXI
-  display_name: German Index
-  exchange_name: FSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: europe_africa
-  symbol: GDAXI
 HSCEI:
   asset: HSCEI
   display_name: Hang Seng China
@@ -415,32 +337,6 @@ HSCEI:
   quoted_currency: HKD
   submarket: asia_oceania
   symbol: HSCEI
-HSI:
-  asset: HSI
-  display_name: Hong Kong Index
-  exchange_name: HKSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: HKD
-  submarket: asia_oceania
-  symbol: HSI
-IBEX35:
-  asset: IBEX35
-  display_name: Spanish Index
-  exchange_name: BM
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: europe_africa
-  symbol: IBEX35
 IBOV:
   asset: IBOV
   display_name: Brazilian Index
@@ -650,32 +546,6 @@ N150:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: N150
-N225:
-  asset: N225
-  display_name: Japanese Index
-  exchange_name: TSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: JPY
-  submarket: asia_oceania
-  symbol: N225
-NDX:
-  asset: NDX
-  display_name: US Tech 100 Index
-  exchange_name: NASDAQ_INDEX
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: americas
-  symbol: NDX
 OBX:
   asset: OBX
   display_name: Norwegian Index
@@ -1058,19 +928,6 @@ SASEIDX:
   quoted_currency: SAR
   submarket: middle_east
   symbol: SASEIDX
-SPC:
-  asset: SPC
-  display_name: US Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: americas
-  symbol: SPC
 SPTSX60:
   asset: SPTSX60
   display_name: Canadian Index
@@ -1097,19 +954,6 @@ SSECOMP:
   quoted_currency: CNY
   submarket: asia_oceania
   symbol: SSECOMP
-SSMI:
-  asset: SSMI
-  display_name: Swiss Index
-  exchange_name: SWX
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: CHF
-  submarket: europe_africa
-  symbol: SSMI
 STI:
   asset: STI
   display_name: Singapore Index
@@ -1123,123 +967,6 @@ STI:
   quoted_currency: SGD
   submarket: asia_oceania
   symbol: STI
-SX5E:
-  asset: SX5E
-  display_name: Euro 50 Index
-  exchange_name: STOXX
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: europe_africa
-  symbol: SX5E
-SYNAEX:
-  asset: SYNAEX
-  display_name: Dutch Smart Index
-  exchange_name: SYNEURONEXT
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: smart_index
-  symbol: SYNAEX
-SYNDJI:
-  asset: SYNDJI
-  display_name: Wall Street Smart Index
-  exchange_name: SYNNYSE_DJI
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: smart_index
-  symbol: SYNDJI
-SYNFCHI:
-  asset: SYNFCHI
-  display_name: French Smart Index
-  exchange_name: SYNEURONEXT
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: smart_index
-  symbol: SYNFCHI
-SYNFTSE:
-  asset: SYNFTSE
-  display_name: UK Smart Index
-  exchange_name: SYNLSE
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: GBP
-  submarket: smart_index
-  symbol: SYNFTSE
-SYNGDAXI:
-  asset: SYNGDAXI
-  display_name: German Smart Index
-  exchange_name: SYNFSE
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: smart_index
-  symbol: SYNGDAXI
-SYNN225:
-  asset: SYNN225
-  display_name: Japanese Smart Index
-  exchange_name: SYNTSE
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: JPY
-  submarket: smart_index
-  symbol: SYNN225
-SYNSPC:
-  asset: SYNSPC
-  display_name: US Smart Index
-  exchange_name: SYNNYSE_SPC
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: smart_index
-  symbol: SYNSPC
-SYNSX5E:
-  asset: SYNSX5E
-  display_name: Euro 50 Smart Index
-  exchange_name: SYNSTOXX
-  instrument_type: synthetic
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: smart_index
-  symbol: SYNSX5E
 SZSECOMP:
   asset: SZSECOMP
   display_name: Shenzhen Index
@@ -4756,66 +4483,6 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
-stpAUDJPY:
-  asset: AUD
-  display_name: AUD/JPY Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: JPY
-  submarket: step_index
-  symbol: stpAUDJPY
-stpAUDUSD:
-  asset: AUD
-  display_name: AUD/USD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: step_index
-  symbol: stpAUDUSD
-stpEURCAD:
-  asset: EUR
-  display_name: EUR/CAD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: CAD
-  submarket: step_index
-  symbol: stpEURCAD
-stpEURGBP:
-  asset: EUR
-  display_name: EUR/GBP Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: GBP
-  submarket: step_index
-  symbol: stpEURGBP
-stpEURJPY:
-  asset: EUR
-  display_name: EUR/JPY Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: JPY
-  submarket: step_index
-  symbol: stpEURJPY
-stpEURUSD:
-  asset: EUR
-  display_name: EUR/USD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: step_index
-  symbol: stpEURUSD
 stpRNG:
   asset: stpRNG
   display_name: Step Index
@@ -4827,23 +4494,3 @@ stpRNG:
   quoted_currency: ~
   submarket: step_index
   symbol: stpRNG
-stpUSDCAD:
-  asset: USD
-  display_name: USD/CAD Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: CAD
-  submarket: step_index
-  symbol: stpUSDCAD
-stpUSDJPY:
-  asset: USD
-  display_name: USD/JPY Step Index
-  exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
-  pip_size: 0.001
-  quoted_currency: JPY
-  submarket: step_index
-  symbol: stpUSDJPY
