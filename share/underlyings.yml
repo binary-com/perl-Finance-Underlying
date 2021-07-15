@@ -1947,7 +1947,7 @@ cryBCHUSDmf:
   asset: BCH
   display_name: BCH/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2087,7 +2087,7 @@ cryBTCUSDmf:
   asset: BTC
   display_name: BTC/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2157,7 +2157,7 @@ cryDSHUSDmf:
   asset: DSH
   display_name: DSH/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2169,7 +2169,7 @@ cryEOSUSD:
   exchange_name: CRYPTOCURRENCY
   instrument_type: cryptocurrency
   market: cryptocurrency
-  pip_size: 0.00001
+  pip_size: 0.0001
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryEOSUSD
@@ -2177,7 +2177,7 @@ cryEOSUSDmf:
   asset: EOS
   display_name: EOS/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2207,7 +2207,7 @@ cryETHUSDmf:
   asset: ETH
   display_name: ETH/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2267,7 +2267,7 @@ cryLTCUSDmf:
   asset: LTC
   display_name: LTC/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2357,7 +2357,7 @@ cryXLMUSD:
   asset: XLM
   display_name: XLM/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2407,7 +2407,7 @@ cryXRPUSDmf:
   asset: XRP
   display_name: XRP/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
