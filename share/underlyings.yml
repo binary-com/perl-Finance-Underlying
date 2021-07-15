@@ -41,6 +41,20 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ10V
+1HZ200V:
+  asset: 1HZ200V
+  display_name: Volatility 200 (1s) Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ200V
 1HZ25V:
   asset: 1HZ25V
   display_name: Volatility 25 (1s) Index
@@ -56,6 +70,21 @@
   quoted_currency: ~
   submarket: random_index
   symbol: 1HZ25V
+1HZ300V:
+  asset: 1HZ300V
+  display_name: Volatility 300 (1s) Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: 1HZ300V
 1HZ50V:
   asset: 1HZ50V
   display_name: Volatility 50 (1s) Index
@@ -175,6 +204,17 @@ BOOM1000:
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM1000
+BOOM300N:
+  asset: BOOM300N
+  display_name: Boom 300 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: BOOM300N
 BOOM500:
   asset: BOOM500
   display_name: Boom 500 Index
@@ -186,17 +226,6 @@ BOOM500:
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM500
-BOOM300:
-  asset: BOOM300
-  display_name: Boom 300 Index
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  market_type: non_financial
-  pip_size: 0.001
-  quoted_currency: ~
-  submarket: crash_index
-  symbol: BOOM300
 BSESENSEX30:
   asset: BSESENSEX30
   display_name: Bombay Index
@@ -237,6 +266,17 @@ CRASH1000:
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH1000
+CRASH300N:
+  asset: CRASH300N
+  display_name: Crash 300 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: CRASH300N
 CRASH500:
   asset: CRASH500
   display_name: Crash 500 Index
@@ -248,17 +288,6 @@ CRASH500:
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH500
-CRASH300:
-  asset: CRASH300
-  display_name: Crash 300 Index
-  exchange_name: RANDOM
-  instrument_type: ~
-  market: synthetic_index
-  market_type: non_financial
-  pip_size: 0.001
-  quoted_currency: ~
-  submarket: crash_index
-  symbol: CRASH300
 DEADS:
   asset: DEADS
   display_name: Adidas
@@ -975,34 +1004,6 @@ R_100:
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
-R_200:
-  asset: R_200
-  display_name: Volatility 200 Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  market_type: non_financial
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: R_200
-R_300:
-  asset: R_300
-  display_name: Volatility 300 Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: synthetic_index
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  market_type: non_financial
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: R_300
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
@@ -1946,7 +1947,7 @@ cryBCHUSDmf:
   asset: BCH
   display_name: BCH/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2086,7 +2087,7 @@ cryBTCUSDmf:
   asset: BTC
   display_name: BTC/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2156,7 +2157,7 @@ cryDSHUSDmf:
   asset: DSH
   display_name: DSH/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2166,7 +2167,7 @@ cryEOSUSD:
   asset: EOS
   display_name: EOS/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2176,7 +2177,7 @@ cryEOSUSDmf:
   asset: EOS
   display_name: EOS/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2206,7 +2207,7 @@ cryETHUSDmf:
   asset: ETH
   display_name: ETH/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2266,7 +2267,7 @@ cryLTCUSDmf:
   asset: LTC
   display_name: LTC/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2356,7 +2357,7 @@ cryXLMUSD:
   asset: XLM
   display_name: XLM/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2396,7 +2397,7 @@ cryXRPUSD:
   asset: XRP
   display_name: XRP/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -2406,7 +2407,7 @@ cryXRPUSDmf:
   asset: XRP
   display_name: XRP/USD
   exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurreny
+  instrument_type: cryptocurrency
   market: cryptocurrency
   pip_size: 0.0001
   quoted_currency: USD
@@ -4336,426 +4337,6 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-cryBCHUSD:
-  asset: BCH
-  display_name: BCH/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryBCHUSD
-cryBNBUSD:
-  asset: BNB
-  display_name: BNB/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryBNBUSD
-cryBTCAUD:
-  asset: BTC
-  display_name: BTC/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: AUD
-  submarket: non_stable_coin
-  symbol: cryBTCAUD
-cryBTCBCH:
-  asset: BTC
-  display_name: BTC/BCH
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: BCH
-  submarket: non_stable_coin
-  symbol: cryBTCBCH
-cryBTCCHF:
-  asset: BTC
-  display_name: BTC/CHF
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: CHF
-  submarket: non_stable_coin
-  symbol: cryBTCCHF
-cryBTCETH:
-  asset: BTC
-  display_name: BTC/ETH
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: ETH
-  submarket: non_stable_coin
-  symbol: cryBTCETH
-cryBTCEUR:
-  asset: BTC
-  display_name: BTC/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryBTCEUR
-cryBTCGBP:
-  asset: BTC
-  display_name: BTC/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: GBP
-  submarket: non_stable_coin
-  symbol: cryBTCGBP
-cryBTCJPY:
-  asset: BTC
-  display_name: BTC/JPY
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 1
-  quoted_currency: JPY
-  submarket: non_stable_coin
-  symbol: cryBTCJPY
-cryBTCLTC:
-  asset: BTC
-  display_name: BTC/LTC
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: LTC
-  submarket: non_stable_coin
-  symbol: cryBTCLTC
-cryBTCNZD:
-  asset: BTC
-  display_name: BTC/NZD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: NZD
-  submarket: non_stable_coin
-  symbol: cryBTCNZD
-cryBTCRUB:
-  asset: BTC
-  display_name: BTC/RUB
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 1
-  quoted_currency: RUB
-  submarket: non_stable_coin
-  symbol: cryBTCRUB
-cryBTCUSD:
-  asset: BTC
-  display_name: BTC/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryBTCUSD
-cryBTCXAG:
-  asset: BTC
-  display_name: BTC/XAG
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: XAG
-  submarket: non_stable_coin
-  symbol: cryBTCXAG
-cryBTCXAU:
-  asset: BTC
-  display_name: BTC/XAU
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: XAU
-  submarket: non_stable_coin
-  symbol: cryBTCXAU
-cryBTCXRP:
-  asset: BTC
-  display_name: BTC/XRP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: XRP
-  submarket: non_stable_coin
-  symbol: cryBTCXRP
-cryDSHUSD:
-  asset: DSH
-  display_name: DSH/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryDSHUSD
-cryETHEUR:
-  asset: ETH
-  display_name: ETH/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryETHEUR
-cryETHUSD:
-  asset: ETH
-  display_name: ETH/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryETHUSD
-cryIOTUSD:
-  asset: IOT
-  display_name: IOT/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryIOTUSD
-cryLTCEUR:
-  asset: LTC
-  display_name: LTC/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryLTCEUR
-cryLTCUSD:
-  asset: LTC
-  display_name: LTC/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryLTCUSD
-cryNEOUSD:
-  asset: NEO
-  display_name: NEO/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryNEOUSD
-cryOMGUSD:
-  asset: OMG
-  display_name: OMG/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryOMGUSD
-cryTRXUSD:
-  asset: TRX
-  display_name: TRX/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryTRXUSD
-cryXMLUSD:
-  asset: XML
-  display_name: XML/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryXMLUSD
-cryXMRUSD:
-  asset: XMR
-  display_name: XMR/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryXMRUSD
-cryXRPEUR:
-  asset: XRP
-  display_name: XRP/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.000001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryXRPEUR
-cryXRPUSD:
-  asset: XRP
-  display_name: XRP/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryXRPUSD
-cryEOSUSD:
-  asset: EOS
-  display_name: EOS/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.00001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryEOSUSD
-cryZECUSD:
-  asset: ZEC
-  display_name: ZEC/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryZECUSD
-cryBTCCAD:
-  asset: BTC
-  display_name: BTC/CAD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: CAD
-  submarket: non_stable_coin
-  symbol: cryBTCCAD
-cryBUSDUSD:
-  asset: BUSD
-  display_name: BUSD/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryBUSDUSD
-cryDAIUSD:
-  asset: DAI
-  display_name: DAI/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryDAIUSD
-cryEURSUSD:
-  asset: EURS
-  display_name: EURS/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryEURSUSD
-cryIDKUSD:
-  asset: IDK
-  display_name: IDK/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.001
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryIDKUSD
-cryPAXUSD:
-  asset: PAX
-  display_name: PAX/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryPAXUSD
-cryTUSDUSD:
-  asset: TUSD
-  display_name: TUSD/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryTUSDUSD
-cryUSDCUSD:
-  asset: USDC
-  display_name: USDC/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryUSDCUSD
-cryUSDKUSD:
-  asset: USDK
-  display_name: USDK/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryUSDKUSD
-cryUSTUSD:
-  asset: UST
-  display_name: UST/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryUSTUSD
-cryeUSDTUSD:
-  asset: eUSDT
-  display_name: eUSDT/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryeUSDTUSD
 stpAUDJPY:
   asset: AUD
   display_name: AUD/JPY Step Index
